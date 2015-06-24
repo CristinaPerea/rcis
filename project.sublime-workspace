@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 31957,
 				"line_ending": "Windows"
 			}
 		}
@@ -56,9 +56,17 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "Emmet",
+		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
 			[
 				"Emmet",
 				"Set Syntax: Emmet"
@@ -131,10 +139,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/rcis",
+		"/C/xampp/htdocs/rcis/css"
+	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/parallax/estilo2.css",
 		"/C/xampp/htdocs/parallax/scrollTransition.js",
+		"/C/xampp/htdocs/rcis/js/theme.js",
+		"/C/xampp/htdocs/rcis/css/style.css",
+		"/C/xampp/htdocs/rcis/css/reset.css",
+		"/C/xampp/htdocs/rcis/css/mobile.css",
+		"/C/xampp/htdocs/rcis/css/skin/cool-gray.css",
+		"/C/xampp/htdocs/rcis/index-2.html",
+		"/C/xampp/htdocs/rcis/index.html",
+		"/C/xampp/htdocs/parallax/estilo2.css",
 		"/C/xampp/htdocs/parallax/main.js",
 		"/C/xampp/htdocs/parallax/index2.html",
 		"/C/xampp/htdocs/parallax/estilo.css",
@@ -253,14 +273,7 @@
 		"/D/Dropbox/Facultad Grado/3/CIMSI/Práctica/Pr4/Notas.txt",
 		"/C/Users/MarcosAlberto/Desktop/T6",
 		"/C/Users/MarcosAlberto/Desktop/Domingo Perea.txt",
-		"/C/Users/MarcosAlberto/Desktop/pluginsWordPressDiseño.txt",
-		"/C/Users/MarcosAlberto/Google Drive/Cristina/Diseño BuddyPress Marcos/Introducción.txt",
-		"/C/Users/MarcosAlberto/Desktop/Entrega/Cristina-Perea-KINEFIS-DMS-v1/XML/gsiModel.xml",
-		"/C/Users/MarcosAlberto/Desktop/Entrega/Cristina-Perea-KINEFIS-DMS-v1/XML/share-config-custom.xml",
-		"/C/Users/MarcosAlberto/Google Drive/Cristina/XML Metadatos v2/gsiModel.xml",
-		"/C/Alfresco-5.0.b-1/apache-tomcat/shared/classes/alfresco/web-extension/share-config-custom.xml",
-		"/C/Users/MarcosAlberto/Downloads/share-config-custom (1).xml",
-		"/C/Users/MarcosAlberto/Desktop/gsiModel2.xml"
+		"/C/Users/MarcosAlberto/Desktop/pluginsWordPressDiseño.txt"
 	],
 	"find":
 	{
@@ -278,6 +291,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#cta-section",
+			"about-section",
 			"size",
 			".*\\n.*\\n",
 			"Maurit",
@@ -334,15 +349,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 31957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4718,
+								4718
 							]
 						],
 						"settings":
@@ -350,66 +365,68 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1188.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -13,7 +13,7 @@
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>PPINOT | PPINOT Tool</title>
+		<title>R.C.I.S.</title>
 		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
 		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
 		<meta name="author" content="imransdesign.com">
@@ -53,6 +53,8 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
+<!-- Latest compiled JavaScript -->
+
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
@@ -89,7 +91,23 @@
                             <li><a class="page-scroll" href="#services-section">Herramientas</a></li>
                             <li><a class="page-scroll" href="#cta-section2">Paquetes de aprendizaje</a></li>                    
                             <li><a class="page-scroll" href="#contact-section">Contacto</a></li>
-                            <li><a class="page-scroll" href="#">Login</a></li>
+                            <li class="dropdown">
+
+                            <a class="dropdown-toggle" data-toggle="dropdown" id="navLogin" href="#">Login</a>
+                            <div class="dropdown-menu" style="padding:17px; border:1px solid black;">
+                                <form class="contact-form" id="formLogin" action="logged.html" method="POST"> 
+                                    <div class="form-group">
+                                        <input class="form-control" name="username" id="username" type="text" placeholder="Username" required pattern="[a-zA-Z ]+"> </div>
+                                    <div class="form-group">
+                                    <input class="form-control" name="password" id="password" type="password" placeholder="Password" required pattern="[a-zA-Z ]+"> </div>
+                                    <div class="form-group">
+                                    <button id="btnLogin" class="btn btn-default">Login</button></div>
+                                </form>
+                            </div>
+
+
+                            </li>
+                                
                         </ul>
                     </div><!-- /.navbar-collapse -->
                   </div><!-- /.container -->
@@ -103,7 +121,7 @@
             
             
         	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="  background-color: #0aabe1; background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); background-position: 50% 50%;">
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="  ">
 				
 				<div class="container">
 					<div class="caption text-center text-white" data-stellar-ratio="0.7">
@@ -211,7 +229,7 @@
 
                                     <div class="col-sm-8 vcentered">
                                       <h2>Conoce más sobre nuestra propuesta científica</h2>
-                                      <p><a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">Leer más</a></p>
+                                      <p><a class="btn btn-blank" href="#" target="_blank" role="button">Leer más</a></p>
                                     </div>
 
                                   </div>
@@ -332,7 +350,7 @@
 
                                     <div class="col-sm-8 vcentered">
                                       <h2>Descubre más publicaciones</h2>
-                                      <p><a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">Ver más</a></p>
+                                      <p><a class="btn btn-blank" href="#" target="_blank" role="button">Ver más</a></p>
                                     </div>
 
                                   </div>
@@ -387,7 +405,7 @@
                       </div>
 
                       <div class="col-md-5 introduction">
-                        <img class="img-intro img-rounded" title="AnalysisOperationsCatalogue2" src="img/herramienta2.png" alt="Poster Visual PPINOT-A2-B">
+                        <img class="img-intro img-rounded" title="AnalysisOperationsCatalogue2" src="img/herramienta2.png" alt="Poster Visual">
                       </div>
                     </div>
 
@@ -529,7 +547,7 @@
                 
                 <div class="footer">
                     <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
-                        <p class="copyright">&copy; 2015 PPINOT</p>
+                        <p class="copyright">&copy; 2015 RCIS</p>
                         <p><a href="http://www.isa.us.es/" target="_blank"><img class="img-responsive isa" src="img/isa.png" alt="ISA"></a></p>
                     </div>
                 </div>

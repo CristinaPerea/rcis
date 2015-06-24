@@ -1,0 +1,430 @@
+//colors
+$color_nevada_approx: #676d75;
+$white: #fff;
+$whitef: #fff;
+$color_woodsmoke_approx: #111;
+$color_tuna_approx: #363940;
+$color_shady_lady_approx: #a9a9a9;
+$black_8: rgba(0, 0, 0, 0.08);
+$color_celeste_approx: #ccc;
+$color_log_cabin_approx: #1f1f1f;
+$color_cerulean_approx: yellow;
+$black_30: rgba(0, 0, 0, 0.3);
+$color_desert_storm_approx: #f8f8f8;
+$color_tuna_95_approx: rgba(54, 57, 64, 0.95);
+$color_tuna_90_approx: rgba(54, 57, 64, 0.9);
+$color_mine_shaft_approx: #2d3035;
+$color_astral_approx: #3078b3;
+$color_matisse_approx: #1867a8;
+$color_cinnabar_approx: #e7392d;
+$color_milano_red_approx: #d81508;
+
+//urls
+$url_0: url(../../img/pat-bg.png);
+
+a {
+	color: $color_nevada_approx;
+	&:hover {
+		color: $color_nevada_approx;
+	}
+	&:focus {
+		color: $color_nevada_approx;
+	}
+}
+.navbar-default {
+	background-color: $color_tuna_approx;
+	.navbar-brand {
+		color: $white;
+		&:focus {
+			color: $white;
+		}
+		&:hover {
+			color: $white;
+		}
+	}
+	.dropdown-menu {
+		border: 1px solid $white;
+		border-top: 2px solid $white;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 6px 10px $black_8;
+	}
+	&.navbar-fixed-top.navbar-shrink {
+		background-color: $color_tuna_approx;
+		.navbar-brand {
+			color: $white;
+			&:hover {
+				color: $color_woodsmoke_approx;
+			}
+		}
+		.navbar-nav > li > a {
+			color: $color_shady_lady_approx;
+		}
+	}
+	.navbar-nav > {
+		li {
+			> a {
+				color: $color_shady_lady_approx;
+				&:hover {
+					color: $white !important;
+				}
+				&:focus {
+					color: $white !important;
+				}
+			}
+			&.active > a {
+				color: $white !important;
+			}
+		}
+		.open > a {
+			color: $white;
+			&:hover {
+				color: $white;
+			}
+			&:focus {
+				color: $white;
+			}
+		}
+		.active > a {
+			background-color: transparent;
+			&:hover {
+				background-color: transparent;
+			}
+			&:focus {
+				background-color: transparent;
+			}
+		}
+	}
+	.navbar-nav>.active>a {
+		color: $white !important;
+	}
+	&.navbar-shrink .navbar-nav > li {
+		> a {
+			&:hover {
+				color: $white;
+			}
+			&:focus {
+				color: $white;
+			}
+		}
+		&.active > a {
+			color: $white;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 3px $white !important;
+		}
+	}
+}
+.navbar-inverse {
+	background-color: $color_woodsmoke_approx;
+	color: $color_celeste_approx;
+	.navbar-brand {
+		color: $color_celeste_approx;
+	}
+	.dropdown-menu {
+		background-color: $color_log_cabin_approx;
+		border: 1px solid $color_woodsmoke_approx;
+		border-top: 2px solid $color_woodsmoke_approx;
+		> li > a {
+			color: $color_celeste_approx;
+			&:hover {
+				color: $color_woodsmoke_approx;
+			}
+			&:focus {
+				color: $color_woodsmoke_approx;
+			}
+		}
+	}
+	.navbar-nav > {
+		li {
+			> a {
+				color: $color_celeste_approx;
+				&:hover {
+					color: $color_woodsmoke_approx;
+				}
+				&:focus {
+					color: $color_woodsmoke_approx;
+				}
+			}
+			&.active > a {
+				color: $color_woodsmoke_approx;
+			}
+		}
+		.active > a {
+			background-color: transparent;
+			color: $color_woodsmoke_approx;
+			&:hover {
+				background-color: transparent;
+				color: $color_woodsmoke_approx;
+			}
+			&:focus {
+				background-color: transparent;
+				color: $color_woodsmoke_approx;
+			}
+		}
+		.open > a {
+			color: $color_woodsmoke_approx;
+			&:hover {
+				color: $color_woodsmoke_approx;
+			}
+			&:focus {
+				color: $color_woodsmoke_approx;
+			}
+		}
+	}
+	&.navbar-fixed-top.navbar-shrink {
+		background-color: $color_woodsmoke_approx;
+		.navbar-nav > {
+			li {
+				> a {
+					color: $color_celeste_approx;
+					&:hover {
+						background-color: transparent;
+						color: $color_woodsmoke_approx;
+					}
+					&:focus {
+						background-color: transparent;
+						color: $color_woodsmoke_approx;
+					}
+				}
+				&.active > a {
+					background-color: transparent;
+					color: $color_woodsmoke_approx;
+				}
+			}
+			.active > a {
+				background-color: transparent;
+				color: $color_woodsmoke_approx;
+				&:hover {
+					background-color: transparent;
+					color: $color_woodsmoke_approx;
+				}
+				&:focus {
+					background-color: transparent;
+					color: $color_woodsmoke_approx;
+				}
+			}
+		}
+	}
+}
+#text-carousel-intro-section {
+	background-color: $color_cerulean_approx;
+	background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0), $black_30);
+	background-position: 50% 50%;
+}
+.progress {
+	border: 3px solid $color_tuna_approx;
+	background-color: transparent;
+}
+.progress-bar {
+	background-color: $color_nevada_approx;
+}
+#cta-section {
+	background: $color_desert_storm_approx $url_0 repeat;
+}
+#partners-section {
+	background: $color_desert_storm_approx $url_0 repeat;
+}
+#social-section {
+	background: $color_desert_storm_approx $url_0 repeat;
+}
+#about-section {
+	background: $color_desert_storm_approx $url_0 repeat;
+}
+#cta-section2 {
+	background: $color_desert_storm_approx $url_0 repeat;
+}
+.team-hover {
+	background: none repeat scroll 0 0 $color_tuna_90_approx;
+}
+.prices {
+	.price-box-featured {
+		.panel-heading {
+			background-color: $color_tuna_approx;
+			color: $white;
+		}
+		.panel-footer {
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 -4px 0 $color_tuna_approx;
+		}
+		.price-box-ribbon {
+			color: $color_tuna_approx;
+		}
+	}
+	.panel-default .panel-heading {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: inset 0 4px 0 $color_tuna_approx;
+	}
+}
+#contact-section {
+	background-color: $color_tuna_approx;
+	.contact .contact-form button {
+		background-color: $color_tuna_approx;
+		&:hover {
+			background-color: $color_nevada_approx;
+		}
+	}
+}
+.footer-top {
+	background-color: $color_tuna_approx;
+}
+.footer {
+	background-color: $color_mine_shaft_approx;
+}
+.btn-default {
+	background: $color_tuna_approx;
+	color: $white;
+	&:focus {
+		background: $color_tuna_approx;
+		color: $white;
+	}
+	&.focus {
+		background: $color_tuna_approx;
+		color: $white;
+	}
+	&:active {
+		background: $color_tuna_approx;
+		color: $white;
+	}
+	&.active {
+		background: $color_tuna_approx;
+		color: $white;
+	}
+	&:hover {
+		color: $white;
+		background: $color_nevada_approx;
+	}
+}
+.btn-primary {
+	background-color: $color_astral_approx;
+	color: $white;
+	&:focus {
+		background-color: $color_astral_approx;
+		color: $white;
+	}
+	&.focus {
+		background-color: $color_astral_approx;
+		color: $white;
+	}
+	&:active {
+		background-color: $color_astral_approx;
+		color: $white;
+	}
+	&.active {
+		background-color: $color_astral_approx;
+		color: $white;
+	}
+	&:hover {
+		background-color: $color_matisse_approx;
+		color: $white;
+	}
+}
+.btn-danger {
+	background-color: $color_cinnabar_approx;
+	color: $white;
+	&:focus {
+		background-color: $color_cinnabar_approx;
+		color: $white;
+	}
+	&.focus {
+		background-color: $color_cinnabar_approx;
+		color: $white;
+	}
+	&:active {
+		background-color: $color_cinnabar_approx;
+		color: $white;
+	}
+	&.active {
+		background-color: $color_cinnabar_approx;
+		color: $white;
+	}
+	&:hover {
+		background-color: $color_milano_red_approx;
+		color: $white;
+	}
+}
+.scrolltotop {
+	color: $color_nevada_approx;
+	border: 2px solid $color_nevada_approx;
+}
+@media only screen and(max-width : 767px) {
+	.navbar-collapse {
+		background-color: $color_nevada_approx;
+		border-color: $white !important;
+	}
+	.navbar-default.navbar-shrink .navbar-nav > li.active > a {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none !important;
+	}
+	.navbar-nav > li {
+		> a {
+			&:hover {
+				color: $color_woodsmoke_approx;
+			}
+			&:focus {
+				color: $color_woodsmoke_approx;
+			}
+		}
+		&.active > a {
+			color: $color_woodsmoke_approx;
+		}
+	}
+}
+.dropdown-menu > {
+	li > a {
+		&:hover {
+			color: $whitef;
+		}
+		&:focus {
+			color: $whitef;
+		}
+		&.active {
+			color: $whitef;
+		}
+	}
+	.active > a {
+		color: $whitef;
+		&:hover {
+			color: $whitef;
+		}
+		&:focus {
+			color: $whitef;
+		}
+	}
+}
+.navbar-fixed-top.navbar-shrink .navbar-brand {
+	color: $color_celeste_approx;
+	&:focus {
+		color: $color_celeste_approx;
+	}
+	&:hover {
+		color: $color_woodsmoke_approx;
+	}
+}
+body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand {
+	color: $color_celeste_approx;
+}
+.rotate-box-1.square-icon .rotate-box-icon {
+	background-color: $color_tuna_approx;
+}
+.rotate-box-2.square-icon .rotate-box-icon {
+	background-color: $color_tuna_approx;
+}
+.active_prot_menu a {
+	background: $color_tuna_approx !important;
+	color: $white !important;
+}
+.portfolio_menu ul li a:hover {
+	background: $color_tuna_approx !important;
+	color: $white !important;
+}
+.portfolio_single_content div {
+	background: none repeat scroll 0 0 $color_tuna_95_approx;
+}
+#subscribe > button[type="submit"] {
+	background: none repeat scroll 0 0 $color_nevada_approx;
+	&:hover {
+		background: none repeat scroll 0 0 $color_woodsmoke_approx;
+	}
+}
+.tweet-content span {
+	color: $color_woodsmoke_approx;
+}
