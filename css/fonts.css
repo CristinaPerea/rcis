@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?hjfcp4');
+	src:url('../fonts/icomoon.eot?#iefixhjfcp4') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?hjfcp4') format('truetype'),
+		url('../fonts/icomoon.woff?hjfcp4') format('woff'),
+		url('../fonts/icomoon.svg?hjfcp4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	float:both;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-book:before {
+	content: "\e91f";
+}
