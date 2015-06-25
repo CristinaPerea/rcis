@@ -1,3 +1,12 @@
+<?php 
+    session_start();
+    $formulario = $_SESSION['formLogin'];
+    $username = $formulario['username'];
+    $password = $formulario['password'];
+    if(!($username == 'rcis') || !($password == 'privado'))
+        Header("Location: errorlogin.php");
+
+?>
 <!doctype html>
 <!--
 	Template:	 Unika - Responsive One Page HTML5 Template
