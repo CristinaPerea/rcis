@@ -95,7 +95,7 @@
 
                             <a class="dropdown-toggle link-acceso-restringido" data-toggle="dropdown" id="navLogin" href="#">Acceso Restringido</a>
                             <div class="dropdown-menu" style="padding:17px; border:1px solid black;">
-                                <form class="contact-form" id="formLogin" action="logged.html" method="POST"> 
+                                <form class="contact-form" id="formLogin" action="logged.php" method="POST"> 
                                     <div class="form-group">
                                         <input class="form-control" name="username" id="username" type="text" placeholder="Username" required pattern="[a-zA-Z ]+"> </div>
                                     <div class="form-group">
