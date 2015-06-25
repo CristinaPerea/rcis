@@ -1,11 +1,18 @@
 <?php 
     session_start();
     $formulario = $_SESSION['formLogin'];
-    $username = $formulario['username'];
-    $password = $formulario['password'];
-    if(!($username == 'rcis') || !($password == 'privado'))
-        Header("Location: errorlogin.php");
-
+    if(!isset($formulario)) {
+        $formulario['username'] = $_REQUEST['username'];
+        $formulario['password'] = $_REQUEST['password'];
+        $_SESSION['formulario'] = $formulario;
+        $username = $formulario['username'];
+        $password = $formulario['password'];    
+        if(!($username == 'rcis') || !($password == 'privado'))
+            Header("Location: errorlogin.php");
+    }
+    else {
+        Header("Location: index.php");
+    }
 ?>
 <!doctype html>
 <!--
@@ -96,14 +103,14 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="page-scroll" href="index.html">Inicio</a></li>
+                            <!--<li><a class="page-scroll" href="index.html">Inicio</a></li>-->
                             <!--<li>
                             Quitado a petición de Pablo, Sprint 2
                             <a class="page-scroll" href="#cta-section3">Publicaciones</a></li> -->
                             <li><a class="page-scroll" href="#eventos-section">Eventos</a></li>
                             <li><a class="page-scroll" href="#cta-section2">Procedimientos</a></li>                    
                             <li><a class="page-scroll" href="#cta-section4">Recursos</a></li>
-                            <li><a href="index.html">Logout</a>
+                            <li><a href="logout.php" class="link-acceso-restringido">Salir</a>
 
                             </div>
 
@@ -206,9 +213,7 @@
                     </div>
                     <!-- End page header-->
                 </div>
-            </section>
-              
-              
+            </section>              
               
             <!-- Begin Services -->
             <section id="eventos-section" class="page text-center">
@@ -327,7 +332,14 @@
                 $('#accordion').accordion();
             });
         </script>
-        
+        <script>      
+                $(document).ready(function() {
+                    $( "#dialog" ).dialog();
+                });
+            </script>
+            <div id="dialog" title="Basic dialog">
+                <p>Bienvenido!</p>
+            </div>  
         <!-- Plugins JS -->
 
 
