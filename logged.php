@@ -57,6 +57,7 @@
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-confirm.css">
        
             <!-- Grid CSS File (only needed for demo page) -->
  
@@ -324,7 +325,7 @@
         <script src="inc/jquery.counterup.min.js"></script>
         <script src="inc/smoothscroll.js"></script>
         <script src="js/jquery-ui.js"></script>
-
+        <script src="js/jquery-confirm.min.js"></script>
         <!-- Theme JS -->
         <script src="js/theme.js"></script>
         <script>
@@ -332,14 +333,12 @@
                 $('#accordion').accordion();
             });
         </script>
-        <script>      
-                $(document).ready(function() {
-                    $( "#dialog" ).dialog();
+        <script>
+            $.alert({
+                    title: 'Confirmación',
+                    content: 'Bienvenido!',
                 });
-            </script>
-            <div id="dialog" title="Basic dialog">
-                <p>Bienvenido!</p>
-            </div>  
+        </script>
         <!-- Plugins JS -->
 
 
