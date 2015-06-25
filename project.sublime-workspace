@@ -41,32 +41,15 @@
 	[
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
-	"build_system_choices":
-	[
-		[
-			[
-				[
-					"Packages/SASS Build/SASS - Compressed.sublime-build",
-					""
-				],
-				[
-					"Packages/SASS Build/SASS.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/SASS Build/SASS.sublime-build",
-				""
-			]
-		]
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -124,7 +107,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -407,7 +390,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "project.sublime-project",
 	"replace":
 	{
@@ -417,7 +399,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -426,7 +407,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -435,7 +415,6 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
