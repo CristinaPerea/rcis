@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font_0"
+			],
+			[
 				"border",
 				"border-style"
 			],
 			[
 				"sub",
 				"substring(from, to?)"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"font-",
@@ -39,18 +39,26 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 31957,
-				"line_ending": "Windows"
-			}
-		}
 	],
-	"build_system": "",
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -141,19 +149,27 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/rcis",
-		"/C/xampp/htdocs/rcis/css"
+		"/C/xampp/htdocs/rcis"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/rcis/index.html",
+		"/C/xampp/htdocs/rcis/scss/style.scss",
+		"/C/xampp/htdocs/rcis/scss/style.css",
+		"/C/xampp/htdocs/rcis/scss/cool-gray.scss",
+		"/C/xampp/htdocs/rcis/logged.html",
+		"/C/xampp/htdocs/rcis/scss/cool-gray.css",
+		"/C/Users/MarcosAlberto/Desktop/jquery-ui-1.11.4.custom/index.html",
+		"/C/xampp/htdocs/rcis/css/paragridma.css",
+		"/C/xampp/htdocs/calendarios/index.html",
+		"/C/xampp/htdocs/rcis/css/reset.css",
+		"/C/xampp/htdocs/rcis/css/skin/cool-grayOriginal.css",
+		"/C/xampp/htdocs/rcis/css/style.css",
 		"/C/xampp/htdocs/parallax/scrollTransition.js",
 		"/C/xampp/htdocs/rcis/js/theme.js",
-		"/C/xampp/htdocs/rcis/css/style.css",
-		"/C/xampp/htdocs/rcis/css/reset.css",
 		"/C/xampp/htdocs/rcis/css/mobile.css",
 		"/C/xampp/htdocs/rcis/css/skin/cool-gray.css",
 		"/C/xampp/htdocs/rcis/index-2.html",
-		"/C/xampp/htdocs/rcis/index.html",
 		"/C/xampp/htdocs/parallax/estilo2.css",
 		"/C/xampp/htdocs/parallax/main.js",
 		"/C/xampp/htdocs/parallax/index2.html",
@@ -264,16 +280,7 @@
 		"/C/Users/MarcosAlberto/Desktop/wordpress.sql",
 		"/C/Bitnami/wampstack-5.4.34-0/apache2/conf/httpd.conf",
 		"/D/Dropbox/IbonitaEnMarcos/proyecto/style.css",
-		"/D/Dropbox/Facultad/Histórico/5/R (Falta los apuntes)/2008-2009/Memorias/parte4y5.m",
-		"/D/Dropbox/IbonitaEnMarcos/proyecto/spiderHerboDe.py",
-		"/D/Dropbox/IbonitaEnMarcos/proyecto/spiderEco.py",
-		"/C/Users/MarcosAlberto/My Documents/Aptana Studio 3 Workspace/index.html",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/Users/MarcosAlberto/Desktop/Preguntas.txt",
-		"/D/Dropbox/Facultad Grado/3/CIMSI/Práctica/Pr4/Notas.txt",
-		"/C/Users/MarcosAlberto/Desktop/T6",
-		"/C/Users/MarcosAlberto/Desktop/Domingo Perea.txt",
-		"/C/Users/MarcosAlberto/Desktop/pluginsWordPressDiseño.txt"
+		"/D/Dropbox/Facultad/Histórico/5/R (Falta los apuntes)/2008-2009/Memorias/parte4y5.m"
 	],
 	"find":
 	{
@@ -291,6 +298,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font",
+			"text-ca",
+			"#cta-section",
+			"section",
+			"PPINOT",
+			"section",
+			"test",
+			"testi",
+			"testim",
+			"car",
+			"Themetori",
+			"text-ca",
 			"#cta-section",
 			"about-section",
 			"size",
@@ -340,98 +359,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31957,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4718,
-								4718
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1188.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -467,6 +396,10 @@
 	},
 	"menu_visible": true,
 	"output.active_lines_compare":
+	{
+		"height": 118.0
+	},
+	"output.exec":
 	{
 		"height": 118.0
 	},
