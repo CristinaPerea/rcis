@@ -42,6 +42,10 @@ body {
     color: #363940;
     font-family: Roboto, Helvetica, Arial, sans-serif; }
 
+.navbar-nav > li > a.link-acceso-restringido {
+  text-transform: none;
+  text-decoration: underline; }
+
 .cover {
   position: absolute;
   width: 100%;
