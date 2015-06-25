@@ -117,15 +117,7 @@
             </header>
             <!-- ========= END HEADER =========-->
             
-            
-      		<script>      
-             	$(function() {
-    				$( "#dialog" ).dialog();
-  				});
-  			</script>
- 			<div id="dialog" title="Basic dialog">
- 				<p>Bienvenido!</p>
-			</div>
+
         	<!-- Begin text carousel intro section -->
 			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="  ">
 				
