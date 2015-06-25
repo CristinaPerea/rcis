@@ -14,9 +14,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>R.C.I.S.</title>
-		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
-		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
-		<meta name="author" content="imransdesign.com">
+		<meta name="description" content="RSCI - Red de Ciencia e Ingeniería de Servicios">
+		<meta name="keywords" content="HTML5, Bootsrtrap, Parallax, One Page, Responsive" />
+		<meta name="author" content="Cristina Perea - Marcos Ginel">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
