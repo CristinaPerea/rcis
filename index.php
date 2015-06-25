@@ -306,10 +306,10 @@
                 </div>
               </section>
 
-         <section id="testimonial-section">
+         <!--<section id="testimonial-section">
                 <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
                     <div class="cover"></div>
-                    <!-- Begin page header-->
+                   
                     <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -329,9 +329,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End page header-->
+                    
                 </div>
-            </section>
+            </section>-->
               
               
               
