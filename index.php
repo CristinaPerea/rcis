@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 <!doctype html>
 <!--
 	Template:	 Unika - Responsive One Page HTML5 Template
@@ -130,7 +127,7 @@
 					<div class="caption text-center text-white" data-stellar-ratio="0.7">
 
 						<div id="" class="">
-							<div class="">
+							<div class="first-section">
 								<h1>Red de Ciencia e Ingeniería de Servicios</h1>
                                 <h3>TIN2014-53986-REDT</h3>
 							</div>
@@ -309,7 +306,6 @@
          <!--<section id="testimonial-section">
                 <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
                     <div class="cover"></div>
-                   
                     <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -329,7 +325,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </section>-->
               
