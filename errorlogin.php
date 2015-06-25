@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    session_destroy();
+?>
 <!doctype html>
 <!--
 	Template:	 Unika - Responsive One Page HTML5 Template
@@ -40,6 +44,20 @@
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+        <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+        <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+        <script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+        <script src="inc/isotope.pkgd.min.js"></script>
+        <script src="inc/classie.js"></script>
+        <script src="inc/jquery.easing.min.js"></script>
+        <script src="inc/jquery.counterup.min.js"></script>
+        <script src="inc/smoothscroll.js"></script>
+
+        <!-- Theme JS -->
+        <script src="js/theme.js"></script>
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -298,6 +316,9 @@
                                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                                     <h2>Publicaciones</h2>
                                     <div class="devider"></div>
+                                    <div class="container">
+                                         <iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -305,68 +326,7 @@
                         
                     </div> <!-- /.row -->
 
-                    <div class="container">
-                    <body>
-
-                        <form action="" id="quicksearch">
-                        <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
-                        <span id="searchstat">Matching entries: <span id="stat">0</span></span>
-                        <div id="showsettings" onclick="toggleSettings()">settings...</div>
-                        <div id="settings" class="hidden">
-                        <ul>
-                        <li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
-                        <li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
-                        <li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
-                        <li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
-                        </ul>
-                        </div>
-                        </form>
-                        <table id="qs_table" border="1">
-                        <thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead>
-                        <tbody><tr id="" class="entry">
-                            <td>Cabanillas, C., Resinas, M., Mendling, J. and Ruiz-Cort&eacute;s, A.</td>
-                            <td>Automated Team Selection and Compliance Checking in Business Processes <p class="infolinks">[<a href="javascript:toggleInfo('','bibtex')">BibTeX</a>]</p></td>
-                            <td>In Press</td>
-                            <td>International Conference on Software and Systems Processes (ICSSP)&nbsp;</td>
-                            <td>conference</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr id="bib_" class="bibtex noshow">
-                        <td colspan="6"><b>BibTeX</b>:
-                        <pre>
-                        @conference{,
-                          author = {Cristina Cabanillas and Manuel Resinas and Jan Mendling and Antonio Ruiz-Cort&eacute;s},
-                          title = {Automated Team Selection and Compliance Checking in Business Processes},
-                          booktitle = {International Conference on Software and Systems Processes (ICSSP)},
-                          year = {In Press}
-                        }
-                        </pre></td>
-                        </tr>
-                        <tr id="" class="entry">
-                            <td>Garcia-Gal&aacute;n, J., Trinidad, P., Rana, O.F. and Ruiz-Cort&eacute;s, A.</td>
-                            <td>Automated Configuration Support for Infrastructure Migration to the Cloud <p class="infolinks">[<a href="javascript:toggleInfo('','bibtex')">BibTeX</a>]</p></td>
-                            <td>In Press</td>
-                            <td>Future Generation Computer Systems&nbsp;</td>
-                            <td>article</td>
-                            <td><a href="http://dx.doi.org/10.1016/j.future.2015.03.006">DOI</a> &nbsp;</td>
-                        </tr>
-                        <tr id="bib_" class="bibtex noshow">
-                        <td colspan="6"><b>BibTeX</b>:
-                        <pre>
-                        @article{,
-                          author = {Jes&uacute;s Garcia-Gal&aacute;n and Pablo Trinidad and Rana, Omer F. and Antonio Ruiz-Cort&eacute;s},
-                          title = {Automated Configuration Support for Infrastructure Migration to the Cloud},
-                          journal = {Future Generation Computer Systems},
-                          year = {In Press},
-                          doi = {http://dx.doi.org/10.1016/j.future.2015.03.006}
-                        }
-                        </pre></td>
-                        </tr>
-                        </tbody>
-                        </table>
-                        <!-- file generated by JabRef -->
-                        </body>
-                       <!-- <div class="col-md-12">
+                    <!-- <div class="col-md-12">
                             <ul class="">
                                 <li class="col-md-6">
                                     <h4 class="col-md-1"><span class="icon-book"></span></h4>
@@ -394,7 +354,6 @@
                                 </li>
                               </ul>
                         </div>-->
-                    </div>
     
                 </div> 
             </div>
@@ -624,20 +583,7 @@
         
         
         <!-- Plugins JS -->
-		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
-		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
-		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
-		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
-		<script src="inc/animations/js/wow.min.js"></script>
-        <script src="inc/waypoints.min.js"></script>
-		<script src="inc/isotope.pkgd.min.js"></script>
-		<script src="inc/classie.js"></script>
-		<script src="inc/jquery.easing.min.js"></script>
-		<script src="inc/jquery.counterup.min.js"></script>
-		<script src="inc/smoothscroll.js"></script>
-
-		<!-- Theme JS -->
-		<script src="js/theme.js"></script>
+		
 
     </body> 
         
