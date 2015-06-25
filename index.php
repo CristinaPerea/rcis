@@ -77,13 +77,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand page-scroll" href="#">RCIS</a>
+                      <a class="navbar-brand page-scroll " href="#text-carousel-intro-section">RCIS</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="page-scroll" href="#text-carousel-intro-section">Inicio</a></li>
+                            <!--<li><a class="page-scroll" href="#text-carousel-intro-section">Inicio</a></li>-->
                             <li><a class="page-scroll" href="#about-section">Objetivos</a></li>
                             <li><a class="page-scroll" href="#prices-section">Participantes</a></li>
                             
