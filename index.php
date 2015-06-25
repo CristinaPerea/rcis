@@ -295,8 +295,8 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Publicaciones</h2>
                                     <div class="devider"></div>
-                                     <div class="responsive-iframe-container">
-                                  <iframe src="test-table-pro.html"></iframe>
+                                     <div class="container">
+                                         <iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>
                                     </div>
                         </div>
                     </div>
