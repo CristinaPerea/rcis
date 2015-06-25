@@ -108,7 +108,7 @@
                             <!--<li>
                             Quitado a petición de Pablo, Sprint 2
                             <a class="page-scroll" href="#cta-section3">Publicaciones</a></li> -->
-                            <li><a class="page-scroll" href="#eventos-section">Eventos</a></li>
+                            <!--<li><a class="page-scroll" href="#eventos-section">Eventos</a></li>-->
                             <li><a class="page-scroll" href="#cta-section2">Procedimientos</a></li>                    
                             <li><a class="page-scroll" href="#cta-section4">Recursos</a></li>
                             <li><a href="logout.php" class="link-acceso-restringido">Salir</a>
@@ -189,10 +189,9 @@
             </div>
           </section> -->
           <!-- End cta -->
-         <section id="testimonial-section">
+<!--         <section id="testimonial-section">
                 <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/engranajes.jpg);">
                     <div class="cover"></div>
-                    <!-- Begin page header-->
                     <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -212,26 +211,24 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End page header-->
                 </div>
-            </section>              
+            </section>              -->
               
             <!-- Begin Services -->
-            <section id="eventos-section" class="page text-center">
-                <!-- Begin page header-->
+   <!--         <section id="eventos-section" class="page text-center">
+
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Calendario de eventos</h2>
                                     <div class="devider"></div>
-                                     <div class="responsive-iframe-container"><!--<img src="img/eventCalendar.png"></img>-->
+                                     <div class="responsive-iframe-container"><img src="img/eventCalendar.png"></img>
                                   <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=2&amp;hl=es&amp;bgcolor=%23ffffff&amp;src=hsk0lgahq4u8t5kblltvijn1m4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=Europe%2FAmsterdam" style=" border-width:0 "frameborder="0" scrolling="no"></iframe>
                                     </div>
                         </div>
                     </div>
                 </div>
-                <!-- End page header-->
-            </section>
+            </section>-->
             <!-- End Services -->
             <section id="cta-section2">
             <div class="cta">
@@ -239,7 +236,7 @@
                     <div class="row">
                     
                         <!-- Begin page header-->
-                        <div class="page-header-wrapper">
+                        <div class="page-header-wrapper first-section">
                             <div class="container">
                                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                                     <h2>Procedimientos</h2>
@@ -333,12 +330,12 @@
                 $('#accordion').accordion();
             });
         </script>
-        <script>
+<!--        <script>
             $.alert({
                     title: 'Confirmación',
                     content: 'Bienvenido!',
                 });
-        </script>
+        </script>-->
         <!-- Plugins JS -->
 
 
