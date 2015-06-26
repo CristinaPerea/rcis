@@ -357,7 +357,7 @@
     
                 </div> 
             </div>
-          </section>
+         </section>
           <!-- End cta -->
          <section id="testimonial-section">
                 <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
