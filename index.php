@@ -303,7 +303,9 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Publicaciones de la red</h2>
                                     <div class="devider"></div>
-                                   
+                                        <div class="row">
+                                            <a href="#cta-section" class="btn btn-default botonFlip">Más publicaciones</a>
+                                        </div>
                                         <div class="container tablaResumen">
                                              <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
                                              <?php include("test-table-Resumen.html"); ?>
@@ -313,7 +315,7 @@
                                              <?php include("test-table-Total.html"); ?>
                                         </div>
                                    
-                                    <p class="botonFlip">Más publicaciones</p>
+                                    
                         </div>
                     </div>
                 </div>

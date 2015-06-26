@@ -1,8 +1,9 @@
 $(document).ready(function() {
+	$(".infolinks").toggle();
 	$(".tablaTotal").toggle();
 });
 
-$(".botonFlip").click(function(){
+$(".botonFlip").click(function(event){
 	var opcion = $(this).text();
 
 	if(opcion == "Más publicaciones"){
@@ -18,5 +19,6 @@ $(".botonFlip").click(function(){
 		});	
 		
 	}
+	event.preventDefaul();
 	window.location.href = "#cta-section";
 });
