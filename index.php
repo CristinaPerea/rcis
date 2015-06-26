@@ -327,9 +327,31 @@
                     </div>
                 </div>
             </section>-->
-              
-              
-              
+              <!-- Begin text carousel intro section -->
+            <section id="services-section" class="page">
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Herramientas</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                     <div class="flexslider">
+                     <ul class="slides">
+                        <li><img src="ideas.png"/></li>
+                        <li><img src="img/img2.jpg"/></li>
+                        <li><img src="img/img3.jpg"/></li>
+                        <li><img src="img/img4.jpg"/></li>
+                        <li><img src="img/img5.jpg"/></li>
+                    </ul>
+                    </div>
+                </div>
+                
+            </section>
             <!-- Begin Services -->
             <section id="services-section" class="page text-center">
                 <!-- Begin page header-->

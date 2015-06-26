@@ -413,7 +413,7 @@ section {
 	.container {
 		height: 100%;
 	}
-	.caption {
+	/*.caption {
 		position: relative;
 		top: 50%;
 		margin-top: -70px;
@@ -429,7 +429,7 @@ section {
 			letter-spacing: 2px;
 			font-size: 16px;
 		}
-	}
+	}*/
 }
 .rotate-box-1 {
 	@extend %extend_2;

@@ -277,22 +277,26 @@ section {
   padding-bottom: 0; }
 
 #text-carousel-intro-section {
-  height: 50%; }
+  height: 50%;
+  /*.caption {
+  	position: relative;
+  	top: 50%;
+  	margin-top: -70px;
+  	h1 {
+  		margin-top: 0;
+  		margin-bottom: 5px;
+  		font-size: 60px;
+  		text-transform: uppercase;
+  		//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  		text-shadow: 1px 1px 1px $black_30;
+  	}
+  	p {
+  		letter-spacing: 2px;
+  		font-size: 16px;
+  	}
+  }*/ }
   #text-carousel-intro-section .container {
     height: 100%; }
-  #text-carousel-intro-section .caption {
-    position: relative;
-    top: 50%;
-    margin-top: -70px; }
-    #text-carousel-intro-section .caption h1 {
-      margin-top: 0;
-      margin-bottom: 5px;
-      font-size: 60px;
-      text-transform: uppercase;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
-    #text-carousel-intro-section .caption p {
-      letter-spacing: 2px;
-      font-size: 16px; }
 
 .rotate-box-1 .rotate-box-icon {
   display: inline-block;
