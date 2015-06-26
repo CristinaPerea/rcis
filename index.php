@@ -32,6 +32,7 @@
 		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
 		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
 
+
 		<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -41,6 +42,12 @@
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" media="all" href="css/style_demo.css" />
+
+        <!-- CSS Para sliders de Herramientas -->
+        <!--<link href="css/bootstrapTheme.css" rel="stylesheet">-->
+        <!--<link href="css/custom.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/estilo-slider-herramientas.css">
+        <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -346,17 +353,15 @@
                             <h2>Herramientas</h2>
                             <div class="devider"></div>
                             <p class="subtitle"></p>
-                           <?php
-                    //include("index3.html");
-                    ?>
-                            <iframe src="index3.html" class="responsive-iframe-container-slider"></iframe>
+                            <?php
+                                include("sliderHerramientasResponsive.html");
+                            ?>
+                            <!--<iframe src="index3.html" class="responsive-iframe-container-slider"></iframe>-->
+
                         </div>
                     </div>
                 </div>
                 <!-- End page header-->
-                <div class="container">
-                    
-                </div>
                 <!--<div class="container">
                     <div class="row">
                       <div class="col-md-5 col-md-offset-1 introduction">
@@ -553,7 +558,7 @@
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
         <script src="js/manejoDeTablas.js"></script>
-
+        <?php include("scriptsSliderHerramientasFinales.html"); ?>
         <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>-->
              <!--  <script type="text/javascript" src="js/jMyCarousel.min.js"></script>
                 <script type="text/javascript">

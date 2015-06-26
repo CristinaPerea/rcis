@@ -1,0 +1,24 @@
+#owl-demo-herramientas .item{
+        display: block;
+        padding: 30px 0px;
+        margin: 5px;
+        color: black;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+        cursor:default;
+}
+
+.texto-slider-herramientas {
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+@media(max-width: 992px) {
+	.texto-slider-herramientas {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}

@@ -1,4 +1,6 @@
 //colors
+
+$grey: grey;
 $color_tuna_approx: #363940;
 $color_prussian_blue_15_approx: rgba(0, 46, 82, 0.15);
 $white: #fff;
@@ -1203,19 +1205,19 @@ ul {
 			background: rgba(0, 0, 0, 0);
 			width: 14px;
 			height: 14px;
-			border: 3px solid $white;
+			border: 3px solid $grey;
 			//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
 			transform: rotate(45deg);
 		}
 		&.active span {
 			background: rgba(0, 0, 0, 0);
-			border: 3px solid $white;
+			border: 3px solid $black;
 		}
 	}
 	&.clickable {
 		.owl-page:hover span {
 			background: rgba(0, 0, 0, 0);
-			border: 3px solid $white;
+			border: 3px solid $grey;
 		}
 		.owl-buttons div:hover {
 			opacity: .5;
