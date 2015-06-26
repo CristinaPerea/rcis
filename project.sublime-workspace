@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
-				"session_",
-				"session_start"
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"if",
+				"iframe	Tag"
+			],
+			[
+				"color",
+				"color_cerulean_approx"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"font",
@@ -43,34 +59,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "errorlogin.php",
+			"settings":
+			{
+				"buffer_size": 28881,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 31720,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
-	"build_system_choices":
-	[
-		[
-			[
-				[
-					"Packages/SASS Build/SASS - Compressed.sublime-build",
-					""
-				],
-				[
-					"Packages/SASS Build/SASS.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/SASS Build/SASS.sublime-build",
-				""
-			]
-		]
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -128,7 +143,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -155,29 +170,29 @@
 	[
 		"/C/xampp/htdocs/rcis",
 		"/C/xampp/htdocs/rcis/css",
-		"/C/xampp/htdocs/rcis/css/skin",
-		"/C/xampp/htdocs/rcis/js"
+		"/C/xampp/htdocs/rcis/css/skin"
 	],
 	"file_history":
 	[
 		"/C/xampp/htdocs/rcis/index.php",
-		"/C/xampp/htdocs/rcisPrueba/test-table-pro.html",
-		"/C/xampp/htdocs/rcisPrueba/index.php",
-		"/C/xampp/htdocs/rcis/css/style.scss",
+		"/C/xampp/htdocs/rcis/test-table-Resumen.html",
 		"/C/xampp/htdocs/rcis/logged.php",
+		"/C/xampp/htdocs/rcis/css/style.scss",
+		"/C/xampp/htdocs/rcis/css/skin/cool-gray.scss",
 		"/C/xampp/htdocs/rcis/errorlogin.php",
 		"/C/xampp/htdocs/rcis/publicaciones-rcis.html",
-		"/C/xampp/htdocs/rcis/test-table-pro.html",
 		"/C/xampp/htdocs/rcis/css/style.css",
-		"/C/xampp/htdocs/rcis/publicaciones-rcis.table",
-		"/C/Users/MarcosAlberto/Downloads/publicaciones-rcis.table",
-		"/C/xampp/htdocs/rcis/logout.php",
-		"/C/Users/MarcosAlberto/Desktop/test/index.html",
-		"/C/xampp/htdocs/rcis/index.html",
+		"/C/xampp/htdocs/rcis/css/style_demo.css",
+		"/C/xampp/htdocs/rcis/index3.html",
+		"/C/xampp/htdocs/parallax/index3.html",
+		"/C/xampp/htdocs/parallax/style_demo.css",
+		"/C/xampp/htdocs/parallax/jMyCarousel.min.js",
+		"/C/xampp/htdocs/parallax/estiloprueba.css",
+		"/C/xampp/htdocs/rcis/test-table-pro.html",
+		"/C/xampp/htdocs/parallax/jsprueba.js",
+		"/C/Users/criperrui/Downloads/test-table-pro.html",
 		"/C/xampp/htdocs/rcis/logged.html",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/xampp/htdocs/rcis/index.html",
 		"/C/xampp/htdocs/rcis/scss/style.scss",
 		"/C/xampp/htdocs/rcis/scss/style.css",
 		"/C/xampp/htdocs/rcis/scss/cool-gray.scss",
@@ -286,12 +301,11 @@
 		"/C/Program Files (x86)/Resident Evil HD Remaster/codex.ini",
 		"/D/SoftwareAReinstalar",
 		"/C/Users/MarcosAlberto/Desktop/SOLUCION BATALLA POR LA TIERRA MEDIA 2 Y EL RESURGIR DEL BRUJO/DVD_BFME/INSTALL.bat",
-		"/C/Users/MarcosAlberto/Desktop/SOLUCION BATALLA POR LA TIERRA MEDIA 2 Y EL RESURGIR DEL BRUJO/DVD_BFME/launch.js",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Mis archivos de La Batalla por la Tierra Media/Options.ini"
+		"/C/Users/MarcosAlberto/Desktop/SOLUCION BATALLA POR LA TIERRA MEDIA 2 Y EL RESURGIR DEL BRUJO/DVD_BFME/launch.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -305,15 +319,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"text-",
-			"text-ca",
-			"table",
-			"<p class=\"infolinks\"",
-			"bibtext",
-			"Bibtext",
-			"BiBText",
-			"jquery-ui",
-			".js",
+			"cta-s",
+			".css",
+			".cc",
+			"owl-demo",
+			"owl-wrapp",
+			"participantes",
+			"botonFlip",
+			"center",
+			"demo",
+			"jMyCarousel",
+			"style_demo.css",
+			"jMyCarousel",
+			"@me",
+			"backgro",
+			"backg",
+			"height",
+			".link",
+			".testi",
+			"dropdown",
+			"dropdown-",
+			"dropdown-t",
+			"dropd",
+			"navLogin",
+			"nav",
+			"media",
 			"font",
 			"text-ca",
 			"#cta-section",
@@ -375,8 +405,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "errorlogin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27709,
+								27709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 671.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2253,
+								2253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -417,13 +508,12 @@
 	},
 	"output.exec":
 	{
-		"height": 118.0
+		"height": 77.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "project.sublime-project",
 	"replace":
 	{
@@ -433,7 +523,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -442,7 +531,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -451,7 +539,6 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],

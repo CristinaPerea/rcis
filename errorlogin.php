@@ -56,6 +56,12 @@
         <script src="inc/jquery.counterup.min.js"></script>
         <script src="inc/smoothscroll.js"></script>
 
+        <!-- CSS Para sliders de Herramientas -->
+        <!--<link href="css/bootstrapTheme.css" rel="stylesheet">-->
+        <!--<link href="css/custom.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/estilo-slider-herramientas.css">
+        <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
+
         <!-- Theme JS -->
         <script src="js/theme.js"></script>
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
@@ -311,7 +317,9 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Publicaciones de la red</h2>
                                     <div class="devider"></div>
-                                   
+                                   <div class="row">
+                                            <a href="#cta-section" class="btn btn-default botonFlip">Más publicaciones</a>
+                                        </div>
                                         <div class="container tablaResumen">
                                              <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
                                              <?php include("test-table-Resumen.html"); ?>
@@ -319,9 +327,7 @@
                                          <div class="container tablaTotal">
                                              <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
                                              <?php include("test-table-Total.html"); ?>
-                                        </div>
-                                   
-                                    <p class="botonFlip">Más publicaciones</p>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -357,7 +363,7 @@
               
               
             <!-- Begin Services -->
-            <section id="services-section" class="page text-center">
+           <section id="services-section" class="page text-center">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
@@ -365,56 +371,12 @@
                             <h2>Herramientas</h2>
                             <div class="devider"></div>
                             <p class="subtitle"></p>
+                            <?php
+                                include("sliderHerramientasResponsive.html");
+                            ?>
+                            <!--<iframe src="index3.html" class="responsive-iframe-container-slider"></iframe>-->
+
                         </div>
-                    </div>
-                </div>
-                <!-- End page header-->
-
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-5 col-md-offset-1 introduction">
-                        <img class="img-intro img-rounded img-resp padbot" title="AnalysisOperationsCatalogue2" src="img/herramienta.png" alt="Analysis Operations Catalogue">
-                      </div>
-                      
-                      <div class="col-md-5 ">
-                        <div class="introduction">
-                          <h4>Herramienta 1</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eligendi temporibus ipsum distinctio veritatis tempore, autem corrupti accusamus nisi itaque atque, impedit vitae incidunt sint asperiores id quisquam deserunt eos.</p>
-                          <p><a href="#" class="btn btn-default">Más información</a></p>
-                                </div>             
-                      </div>
-                    </div>
-
-                    <hr class="soften">
-
-                    <div class="row">
-                      <div class="col-md-5 col-md-offset-1">
-                        <div class="introduction">
-                          <h4>Herramienta 2</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed fugiat, esse, quo at minima corporis tempore iure ullam eius eveniet amet impedit iste, culpa sequi, maiores numquam. Animi, facere.</p>
-                          <p><a href="#" class="btn btn-default">Más información</a></p>
-                                </div>                  
-                      </div>
-
-                      <div class="col-md-5 introduction">
-                        <img class="img-intro img-rounded" title="AnalysisOperationsCatalogue2" src="img/herramienta2.png" alt="Poster Visual">
-                      </div>
-                    </div>
-
-                    <hr class="soften">
-                    
-                    <div class="row">
-                      <div class="col-md-5 col-md-offset-1 introduction">
-                        <img class="img-intro img-rounded" title="AnalysisOperationsCatalogue2" src="img/herramienta3.jpg" alt="Activiti">
-                      </div>
-                      
-                      <div class="col-md-5 ">
-                        <div class="introduction">
-                          <h4>Herramienta 3</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur asperiores aliquid laboriosam, quaerat molestias amet magni commodi nemo officiis quidem ab facere consectetur eveniet, id. Unde autem repellat, fugit eligendi!</a>.</p>
-                          <p><a href="#" class="btn btn-default">Más información</a></p>
-                        </div>                  
-                      </div>
                     </div>
                 </div>           
 
@@ -551,7 +513,8 @@
         
         
         <!-- Plugins JS -->
-		<script src="js/manejoDeTablas.js"></script>
+        <script src="js/manejoDeTablas.js"></script>
+        <?php include("scriptsSliderHerramientasFinales.html"); ?>
 
     </body> 
         

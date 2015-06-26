@@ -48,6 +48,20 @@
         <!--<link href="css/custom.css" rel="stylesheet">-->
         <link rel="stylesheet" href="css/estilo-slider-herramientas.css">
         <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
+        <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+        <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+        <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+        <script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+        <script src="inc/isotope.pkgd.min.js"></script>
+        <script src="inc/classie.js"></script>
+        <script src="inc/jquery.easing.min.js"></script>
+        <script src="inc/jquery.counterup.min.js"></script>
+        <script src="inc/smoothscroll.js"></script>
+
+        <!-- Theme JS -->
+        <script src="js/theme.js"></script>
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -134,7 +148,7 @@
 				<div class="container">
 					<div class="caption text-center text-white" data-stellar-ratio="0.7">
 
-						<div id="owl-into-text" class="">
+						<div id="" class="">
 							<div class="first-section">
 								<h1>Red de Ciencia e Ingeniería de Servicios</h1>
                                 <h3>TIN2014-53986-REDT</h3>
@@ -545,55 +559,10 @@
         
         
         <!-- Plugins JS -->
-		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
-		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
-		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
-		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
-		<script src="inc/animations/js/wow.min.js"></script>
-        <script src="inc/waypoints.min.js"></script>
-		<script src="inc/isotope.pkgd.min.js"></script>
-		<script src="inc/classie.js"></script>
-		<script src="inc/jquery.easing.min.js"></script>
-		<script src="inc/jquery.counterup.min.js"></script>
-		<script src="inc/smoothscroll.js"></script>
-
-		<!-- Theme JS -->
-		<script src="js/theme.js"></script>
+		
         <script src="js/manejoDeTablas.js"></script>
         <?php include("scriptsSliderHerramientasFinales.html"); ?>
-        <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>-->
-             <!--  <script type="text/javascript" src="js/jMyCarousel.min.js"></script>
-                <script type="text/javascript">
-                $(document).ready(function() {
-                    $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
-                    visible: '100%',
-                    eltByElt: true
-                    });
-                    $(".jMyCarousel img").fadeTo(100, 0.6);
-                    $(".jMyCarousel a img").hover(
-                        function(){ //mouse over
-                    $(this).fadeTo(400, 1);
-                    },
-                        function(){ //mouse out
-                     $(this).fadeTo(400, 0.6);
-                     });
-                 });
-                </script>
-        <script type="text/javascript">
-          $(document).ready(function(){ // Script de la Galeria
-            $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
-            $('#contenido_galeria div:first').addClass('aqui');
-            $('.jMyCarousel a').click(function(){
-                $('#contenido_galeria div.aqui').fadeOut(400);
-                $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
-                return false;
-            });
-         });
-        </script>-->     
+     
     
         </body> 
-        
-            
-
-<!-- Mirrored from portal-herramientas.appspot.com/template4/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jun 2015 20:24:40 GMT -->
 </html>
