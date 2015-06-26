@@ -315,7 +315,7 @@
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                            <h2>Publicaciones de la red</h2>
+                            <h2 class="titulo-tablas-publicaciones">Publicaciones de la red</h2>
                                     <div class="devider"></div>
                                         <div class="row">
                                             <a href="#cta-section" class="btn btn-default botonFlip">Más publicaciones</a>
