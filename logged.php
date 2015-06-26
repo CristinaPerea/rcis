@@ -230,7 +230,7 @@
                 </div>
             </section>-->
             <!-- End Services -->
-            <section id="cta-section2">
+            <section id="cta-section4">
             <div class="cta">
                 <div class="container">
                     <div class="row">
@@ -257,7 +257,7 @@
                 </div> <!-- /.container -->
             </div>
           </section>
-          <section id="cta-section4">
+          <section id="cta-section2">
                 <div class="page-header-wrapper">
                             <div class="container">
                                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
