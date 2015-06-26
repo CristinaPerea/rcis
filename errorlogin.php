@@ -306,63 +306,31 @@
               
           <!-- Begin cta -->
           <section id="cta-section">
-          	<div class="cta">
-            	<div class="container">
-                	<div class="row">
-                    
-                    	<!-- Begin page header-->
-                        <div class="page-header-wrapper">
-                            <div class="container">
-                                <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-                                    <h2>Publicaciones</h2>
+          	<div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Publicaciones de la red</h2>
                                     <div class="devider"></div>
-                                    <div class="container">
-                                         <iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>
-                                    </div>
-                                </div>
-                            </div>
+                                   
+                                        <div class="container tablaResumen">
+                                             <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
+                                             <?php include("test-table-Resumen.html"); ?>
+                                        </div>
+                                         <div class="container tablaTotal">
+                                             <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
+                                             <?php include("test-table-Total.html"); ?>
+                                        </div>
+                                   
+                                    <p class="botonFlip">Más publicaciones</p>
                         </div>
-                        <!-- End page header-->
-                        
-                    </div> <!-- /.row -->
-
-                    <!-- <div class="col-md-12">
-                            <ul class="">
-                                <li class="col-md-6">
-                                    <h4 class="col-md-1"><span class="icon-book"></span></h4>
-                                    <div class="rotate-box-info">
-                                        <h4>Publicación 1</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                    </div>
-                                    </a>
-                                </li>
-                                <li class="col-md-6">
-                                    <h4 class="col-md-1"><span class="icon-book"></span></h4>
-                                    <div class="rotate-box-info">
-                                        <h4>Publicación 2</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                    </div>
-                                    </a>
-                                </li>
-                                <li class="col-md-6">
-                                    <h4 class="col-md-1"><span class="icon-book"></span></h4>
-                                    <div class="rotate-box-info">
-                                        <h4>Publicación 3</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                    </div>
-                                    </a>
-                                </li>
-                              </ul>
-                        </div>-->
-    
-                </div> 
-            </div>
+                    </div>
+                </div>
          </section>
           <!-- End cta -->
-         <section id="testimonial-section">
+         <!--<section id="testimonial-section">
                 <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
                     <div class="cover"></div>
-                    <!-- Begin page header-->
+                
                     <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -382,9 +350,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End page header-->
+                
                 </div>
-            </section>
+            </section>-->
               
               
               
@@ -583,7 +551,7 @@
         
         
         <!-- Plugins JS -->
-		
+		<script src="js/manejoDeTablas.js"></script>
 
     </body> 
         
