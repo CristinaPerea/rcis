@@ -40,6 +40,7 @@
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/style_demo.css" />
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -126,7 +127,7 @@
 				<div class="container">
 					<div class="caption text-center text-white" data-stellar-ratio="0.7">
 
-						<div id="" class="">
+						<div id="owl-into-text" class="">
 							<div class="first-section">
 								<h1>Red de Ciencia e Ingeniería de Servicios</h1>
                                 <h3>TIN2014-53986-REDT</h3>
@@ -329,31 +330,7 @@
                     </div>
                 </div>
             </section>-->
-              <!-- Begin text carousel intro section -->
-            <section id="services-section" class="page">
-                <div class="page-header-wrapper">
-                    <div class="container">
-                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                            <h2>Herramientas</h2>
-                            <div class="devider"></div>
-                            <p class="subtitle"></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex-container">
-                     <div class="flexslider">
-                     <ul class="slides">
-                        <li><img src="ideas.png"/></li>
-                        <li><img src="img/img2.jpg"/></li>
-                        <li><img src="img/img3.jpg"/></li>
-                        <li><img src="img/img4.jpg"/></li>
-                        <li><img src="img/img5.jpg"/></li>
-                    </ul>
-                    </div>
-                </div>
-                
-            </section>
+            
             <!-- Begin Services -->
             <section id="services-section" class="page text-center">
                 <!-- Begin page header-->
@@ -363,12 +340,18 @@
                             <h2>Herramientas</h2>
                             <div class="devider"></div>
                             <p class="subtitle"></p>
+                           <?php
+                    //include("index3.html");
+                    ?>
+                            <iframe src="index3.html" class="responsive-iframe-container-slider"></iframe>
                         </div>
                     </div>
                 </div>
                 <!-- End page header-->
-
                 <div class="container">
+                    
+                </div>
+                <!--<div class="container">
                     <div class="row">
                       <div class="col-md-5 col-md-offset-1 introduction">
                         <img class="img-intro img-rounded img-resp padbot" title="AnalysisOperationsCatalogue2" src="img/herramienta.png" alt="Analysis Operations Catalogue">
@@ -414,7 +397,7 @@
                         </div>                  
                       </div>
                     </div>
-                </div>           
+                </div>-->           
 
             </section>
             <!-- End Services -->
@@ -472,7 +455,7 @@
 			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/reina.png);">
             <div class="cover"></div>
             
-                 <!-- Begin page header-->
+                 
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -482,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- End page header-->
+                
                 
                 <div class="contact wow bounceInRight" data-wow-delay="0.4s">
                     <div class="container">
@@ -519,8 +502,8 @@
                                 </div>	
                             </div>
                                                                                 
-                        </div> <!-- /.row -->
-                    </div> <!-- /.container -->
+                        </div> 
+                    </div> 
                 </div>
             </section>
             <!-- End contact section -->
@@ -564,7 +547,37 @@
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
 
-    </body> 
+        <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>-->
+             <!--  <script type="text/javascript" src="js/jMyCarousel.min.js"></script>
+                <script type="text/javascript">
+                $(document).ready(function() {
+                    $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
+                    visible: '100%',
+                    eltByElt: true
+                    });
+                    $(".jMyCarousel img").fadeTo(100, 0.6);
+                    $(".jMyCarousel a img").hover(
+                        function(){ //mouse over
+                    $(this).fadeTo(400, 1);
+                    },
+                        function(){ //mouse out
+                     $(this).fadeTo(400, 0.6);
+                     });
+                 });
+                </script>
+        <script type="text/javascript">
+          $(document).ready(function(){ // Script de la Galeria
+            $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
+            $('#contenido_galeria div:first').addClass('aqui');
+            $('.jMyCarousel a').click(function(){
+                $('#contenido_galeria div.aqui').fadeOut(400);
+                $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
+                return false;
+            });
+         });
+        </script>-->     
+    
+        </body> 
         
             
 

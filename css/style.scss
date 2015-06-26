@@ -413,7 +413,7 @@ section {
 	.container {
 		height: 100%;
 	}
-	/*.caption {
+	.caption {
 		position: relative;
 		top: 50%;
 		margin-top: -70px;
@@ -429,7 +429,7 @@ section {
 			letter-spacing: 2px;
 			font-size: 16px;
 		}
-	}*/
+	}
 }
 .rotate-box-1 {
 	@extend %extend_2;
@@ -1274,6 +1274,14 @@ iframe {
     padding-top: 30px;
     height: 400px;
     overflow: hidden;}
+    &.responsive-iframe-container-slider {
+    position: relative;
+    padding-bottom:0px;
+    padding-top: 30px;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;}
+    
 }
 
 .first-section {
