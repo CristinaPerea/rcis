@@ -296,11 +296,17 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2>Publicaciones de la red</h2>
                                     <div class="devider"></div>
-
-                                     <div class="container">
-                                         <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
-                                         <?php include("test-table-pro.html"); ?>
-                                    </div>
+                                   
+                                        <div class="container tablaResumen">
+                                             <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
+                                             <?php include("test-table-Resumen.html"); ?>
+                                        </div>
+                                         <div class="container tablaTotal">
+                                             <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
+                                             <?php include("test-table-Total.html"); ?>
+                                        </div>
+                                   
+                                    <p class="botonFlip">Más publicaciones</p>
                         </div>
                     </div>
                 </div>
@@ -546,6 +552,7 @@
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
+        <script src="js/manejoDeTablas.js"></script>
 
         <!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>-->
              <!--  <script type="text/javascript" src="js/jMyCarousel.min.js"></script>
