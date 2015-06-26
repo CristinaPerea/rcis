@@ -296,7 +296,8 @@
                             <h2>Publicaciones</h2>
                                     <div class="devider"></div>
                                      <div class="container">
-                                         <iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>
+                                         <!--<iframe class="container responsive-iframe-container-publicaciones" src="test-table-pro.html" srcolling="no"></iframe>-->
+                                         <?php include("test-table-pro.html"); ?>
                                     </div>
                         </div>
                     </div>
