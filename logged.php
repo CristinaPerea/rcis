@@ -56,6 +56,7 @@
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link rel="stylesheet" href="css/fontsDrive.css">
         <link rel="stylesheet" href="css/jquery-ui.css">
         <link rel="stylesheet" href="css/jquery-confirm.css">
        
@@ -242,7 +243,7 @@
                                     <h2>Procedimientos</h2>
                                     <div class="devider"></div>
                                     <p class="subtitle"></p>
-                                    <div class="responsive-iframe-container">
+                                    <div class="responsive-iframe-container-procedimientos">
                                     <iframe src="https://docs.google.com/document/d/1rszg-eygEH579VyP4d3_KE_8HMXn_wwdUq3AMjRWB1c/pub?embedded=true" frameborder="1"></iframe>
                                     </div>
                                 </div>
@@ -260,11 +261,17 @@
           <section id="cta-section2">
                 <div class="page-header-wrapper">
                             <div class="container">
-                                <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-                                    <h2>Recursos</h2>
-                                    <div class="devider"></div>
-                                    <div class="responsive-iframe-container"><iframe src="https://drive.google.com/embeddedfolderview?id=0B777mNcRbpXNflFhSm96RzlJOTQ2c2hZUHNPSm5veVNiSFNDTEg0a1pEODNjTHNxdUFTX0k#grid" width="800" height="500" frameborder="1"></iframe></div>
-                                </div>
+                                
+                                    <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                                        <h2>Recursos</h2>
+                                        <div class="devider"></div>
+                                        <div id="row">
+                                            <button id="boton-vista-drive" class="btn btn-default"><span class="icon-file-text2"></span></button>
+                                        </div>
+                                        <div id="row">
+                                            <div class="responsive-iframe-container"><iframe id="iframe-recursos" src="https://drive.google.com/embeddedfolderview?id=0B777mNcRbpXNflFhSm96RzlJOTQ2c2hZUHNPSm5veVNiSFNDTEg0a1pEODNjTHNxdUFTX0k#grid" width="800" height="500" frameborder="1"></iframe></div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
          <!--       <div id="accordion">
@@ -325,11 +332,6 @@
         <script src="js/jquery-confirm.min.js"></script>
         <!-- Theme JS -->
         <script src="js/theme.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('#accordion').accordion();
-            });
-        </script>
 <!--        <script>
             $.alert({
                     title: 'Confirmación',
@@ -337,7 +339,7 @@
                 });
         </script>-->
         <!-- Plugins JS -->
-
+        <script src="js/cambiaVistaRecursosDrive.js"></script>
 
     </body> 
         

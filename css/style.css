@@ -903,6 +903,7 @@ ul.imp-links {
   font-family: Roboto; }
 
 /* C├│digo para hacer un iframe responsive*/
+.responsive-iframe-container-procedimientos,
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -910,6 +911,7 @@ ul.imp-links {
   height: 0;
   overflow: hidden; }
 
+.responsive-iframe-container-procedimientos iframe,
 .responsive-iframe-container iframe,
 .vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
@@ -933,6 +935,13 @@ iframe.responsive-iframe-container-slider {
   width: 100%;
   overflow: hidden; }
 
+@media (min-width: 993px) {
+  .responsive-iframe-container iframe,
+  .vresponsive-iframe-container object,
+  .vresponsive-iframe-container embed {
+    width: 720px;
+    height: 435px;
+    position: relative; } }
 .first-section {
   padding-top: 2%; }
 

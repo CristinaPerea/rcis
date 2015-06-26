@@ -1251,7 +1251,7 @@ ul {
 
    /* Código para hacer un iframe responsive*/
 
- 
+.responsive-iframe-container-procedimientos, 
 .responsive-iframe-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -1259,7 +1259,8 @@ ul {
     height: 0;
     overflow: hidden;
 }
- 
+
+.responsive-iframe-container-procedimientos iframe,
 .responsive-iframe-container iframe,   
 .vresponsive-iframe-container object,  
 .vresponsive-iframe-container embed {
@@ -1286,6 +1287,24 @@ iframe {
     
 }
 
+
+@media(min-width:993px) {
+	.responsive-iframe-container iframe,   
+	.vresponsive-iframe-container object,  
+	.vresponsive-iframe-container embed {
+		width:720px;
+		height:435px;
+		position:relative;
+	}
+	iframe {
+		&.responsive-iframe-container-publicaciones {
+
+	    }
+	    &.responsive-iframe-container-slider {
+	    }
+	    
+	}
+}
 .first-section {
   padding-top:2%;
 }
