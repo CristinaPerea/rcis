@@ -55,13 +55,12 @@
         <script src="inc/animations/js/wow.min.js"></script>
         <script src="inc/waypoints.min.js"></script>
         <script src="inc/isotope.pkgd.min.js"></script>
-        <script src="inc/classie.js"></script>
+        
         <script src="inc/jquery.easing.min.js"></script>
         <script src="inc/jquery.counterup.min.js"></script>
+        <script src="inc/classie.js"></script>
         <script src="inc/smoothscroll.js"></script>
 
-        <!-- Theme JS -->
-        <script src="js/theme.js"></script>
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -479,7 +478,7 @@
           </section>-->
                             
             <!-- Begin contact section -->
-			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/reina.png);">
+			<section id="contact-section" class="page text-white" data-stellar-background-ratio="0.5" style="background-image: url(img/reina.png);">
             <div class="cover"></div>
             
                  
@@ -559,7 +558,9 @@
         
         
         <!-- Plugins JS -->
-		
+
+
+        <script src="js/theme.js"></script>
         <script src="js/manejoDeTablas.js"></script>
         <?php include("scriptsSliderHerramientasFinales.html"); ?>
      

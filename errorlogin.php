@@ -71,7 +71,7 @@
         <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
 
         <!-- Theme JS -->
-        <script src="js/theme.js"></script>
+        
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -441,7 +441,7 @@
           </section>-->
                             
             <!-- Begin contact section -->
-			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/reina.png);">
+			<section id="contact-section" class="page text-white" data-stellar-background-ratio="0.5" style="background-image: url(img/reina.png);">
             <div class="cover"></div>
             
                  <!-- Begin page header-->
@@ -521,6 +521,7 @@
         
         
         <!-- Plugins JS -->
+        <script src="js/theme.js"></script>
         <script src="js/manejoDeTablas.js"></script>
         <?php include("scriptsSliderHerramientasFinales.html"); ?>
         <!-- Bad login -->
