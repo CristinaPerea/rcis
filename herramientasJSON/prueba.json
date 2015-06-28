@@ -1,0 +1,16 @@
+{
+	"herramientas":[
+						{
+						"nombreHerramienta":"PPINOT",
+						"imagen":"img/herramientappinot.png",
+						"descripcion":"Es un conjunto de herramientas y técnicas para la definición y análisis automatizado de los indicadores de rendimiento de proceso.",
+						"enlace":"http://www.isa.us.es/ppinot"
+						},
+						{
+						"nombreHerramienta":"IDEAS",
+						"imagen":"img/herramientaideas.png",
+						"descripcion":"El marco de trabajo on-line con las herramientas de análisis del grupo ISA para SLAs y experimentos formales.",
+						"enlace":"https://labs.isa.us.es:8181/IDEAS/security/login"
+						}
+	]
+}

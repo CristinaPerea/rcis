@@ -1,0 +1,10 @@
+{
+	"herramientas":[
+						{
+						"nombreHerramienta":"OPERA",
+						"imagen":"img/herramientaOpera.png",
+						"descripcion":"OPERA es una herramienta orientada a facilitar la aplicación de la metodología de aprendizaje basado en proyectos (ABP) minimizando la logística necesaria por parte del profesor y optimizando la interacción con los alumnos a través de una plataforma on-line.",
+						"enlace":"http://opera.eii.us.es/"
+						}
+	]
+}
