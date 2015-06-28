@@ -118,11 +118,11 @@
                             <div class="dropdown-menu" style="padding:17px; border:1px solid black;">
                                 <form class="contact-form" id="formLogin" name="formLogin" action="logged.php" method="POST"> 
                                     <div class="form-group">
-                                        <input class="form-control" name="username" id="username" type="text" placeholder="Username" required pattern="[a-zA-Z ]+"> </div>
+                                        <input class="form-control" name="username" id="username" type="text" placeholder="Usuario" required pattern="[a-zA-Z ]+"> </div>
                                     <div class="form-group">
-                                    <input class="form-control" name="password" id="password" type="password" placeholder="Password" required pattern="[a-zA-Z ]+"> </div>
+                                    <input class="form-control" name="password" id="password" type="password" placeholder="Contraseña" required pattern="[a-zA-Z ]+"> </div>
                                     <div class="form-group">
-                                    <button id="btnLogin" class="btn btn-default">Login</button></div>
+                                    <button id="btnLogin" class="btn btn-default">Entrar</button></div>
                                 </form>
                             </div>
 

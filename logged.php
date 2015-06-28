@@ -110,8 +110,8 @@
                             Quitado a petición de Pablo, Sprint 2
                             <a class="page-scroll" href="#cta-section3">Publicaciones</a></li> -->
                             <!--<li><a class="page-scroll" href="#eventos-section">Eventos</a></li>-->
-                            <li><a class="page-scroll" href="#cta-section2">Procedimientos</a></li>                    
-                            <li><a class="page-scroll" href="#cta-section4">Recursos</a></li>
+                            <li><a class="page-scroll" href="#cta-section4">Procedimientos</a></li>                    
+                            <li><a class="page-scroll" href="#cta-section2">Recursos</a></li>
                             <li><a href="logout.php" class="link-acceso-restringido">Salir</a>
 
                             </div>
