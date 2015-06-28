@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	//$(".infolinks").toggle();
+	$(".infolinks").toggle();
 	$(".tablaTotal").toggle();
 });
 
