@@ -107,6 +107,7 @@
                             <div id="row">
                                 <button id="boton-vista-drive" class="btn btn-default"><span class="icon-file-text2"></span></button>
                             </div>
+                            <div class="extra-space-l"></div>
                             <div id="row">
                                 <div class="responsive-iframe-container"><iframe id="iframe-recursos" src="https://drive.google.com/embeddedfolderview?id=0B777mNcRbpXNflFhSm96RzlJOTQ2c2hZUHNPSm5veVNiSFNDTEg0a1pEODNjTHNxdUFTX0k#grid" width="800" height="500" frameborder="1"></iframe></div>
                             </div>

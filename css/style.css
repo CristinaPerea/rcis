@@ -948,4 +948,8 @@ iframe.responsive-iframe-container-slider {
 th {
   background-color: #363940; }
 
+@media (max-width: 768px) {
+  .form-control {
+    height: 25px !important; } }
+
 /*# sourceMappingURL=style.css.map */

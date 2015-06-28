@@ -296,4 +296,9 @@ body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand 
 .tweet-content span {
   color: #111; }
 
+@media (max-width: 768px) {
+  ul.navbar-nav > li > a {
+    padding: 1px !important;
+    font-size: 12px !important; } }
+
 /*# sourceMappingURL=cool-gray.css.map */

@@ -50,6 +50,7 @@
         <script src="inc/jquery.counterup.min.js"></script>
         <script src="inc/classie.js"></script>
         <script src="inc/smoothscroll.js"></script>
+        
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">

@@ -55,38 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sliderHerramientasResponsive.html",
-			"settings":
-			{
-				"buffer_size": 453,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sliderHerramientasJSON.html",
-			"settings":
-			{
-				"buffer_size": 1082,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "herramientasJSON/prueba2.json",
-			"settings":
-			{
-				"buffer_size": 442,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "herramientasJSON/prueba.json",
-			"settings":
-			{
-				"buffer_size": 614,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"build_system_choices":
@@ -199,35 +167,39 @@
 	[
 		"/C/xampp/htdocs/rcis",
 		"/C/xampp/htdocs/rcis/css",
+		"/C/xampp/htdocs/rcis/css/skin",
 		"/C/xampp/htdocs/rcis/inc",
 		"/C/xampp/htdocs/rcis/inc/owl-carousel",
+		"/C/xampp/htdocs/rcis/inc/owl-carousel/css",
 		"/C/xampp/htdocs/rcis/inc/owl-carousel/js",
 		"/C/xampp/htdocs/rcis/js"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/pruebaJSONPhp/prueba2.json",
-		"/C/xampp/htdocs/pruebaJSONPhp/sliderHerramientasJSON.php",
+		"/C/xampp/htdocs/rcis/js/loginMobile.js",
+		"/C/xampp/htdocs/rcis/cuerpoindex.html",
+		"/C/xampp/htdocs/rcis/logged.php",
+		"/C/xampp/htdocs/rcis/css/style.scss",
+		"/C/xampp/htdocs/rcis/css/skin/cool-gray.scss",
+		"/C/xampp/htdocs/rcis/index.php",
+		"/C/xampp/htdocs/rcis/sliderHerramientasResponsive.html",
+		"/C/xampp/htdocs/rcis/sliderHerramientasJSON.html",
 		"/C/xampp/htdocs/rcis/herramientasJSON/prueba2.json",
 		"/C/xampp/htdocs/rcis/herramientasJSON/prueba.json",
-		"/C/xampp/htdocs/rcis/cuerpoindex.html",
-		"/C/xampp/htdocs/rcis/css/style.scss",
-		"/C/xampp/htdocs/rcis/index.php",
+		"/C/xampp/htdocs/pruebaJSONPhp/prueba2.json",
+		"/C/xampp/htdocs/pruebaJSONPhp/sliderHerramientasJSON.php",
 		"/C/xampp/htdocs/rcis/test-table-Resumen.html",
 		"/C/xampp/htdocs/rcis/test-table-Total.html",
 		"/C/xampp/htdocs/rcis/css/skinGlobal.scss",
-		"/C/xampp/htdocs/rcis/css/skin/cool-gray.scss",
 		"/C/xampp/htdocs/rcis/js/manejoDeTablas.js",
 		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/rcis/logged.php",
 		"/C/xampp/htdocs/rcis/scriptsSliderHerramientasFinales.html",
 		"/C/xampp/htdocs/rcis/errorlogin.php",
 		"/C/xampp/htdocs/rcis/js/theme.js",
 		"/C/xampp/htdocs/rcis/js/cambiaVistaRecursosDrive.js",
 		"/C/xampp/htdocs/rcis/css/fontsDrive.css",
 		"/C/xampp/htdocs/rcis/css/fuenteDrive.css",
-		"/C/xampp/htdocs/rcis/sliderHerramientasResponsive.html",
 		"/C/xampp/htdocs/rcis/css/estilo-slider-herramientas.css",
 		"/C/Users/MarcosAlberto/Desktop/click.html",
 		"/C/xampp/htdocs/owlCarousel/demos/one.html",
@@ -331,9 +303,7 @@
 		"/F/Juegos/Heroes VI/Might.and.Magic.Heroes.VI.Complete.Edition-PROPHET/prophet.nfo",
 		"/D/Games/Ori and the Blind Forest/codex.ini",
 		"/C/Users/MarcosAlberto/AppData/Local/Temp/8BFF.tmp",
-		"/C/Games/Cities Skylines/codex.ini",
-		"/C/Users/MarcosAlberto/Music/iTunes/iTunes Music Library.xml",
-		"/C/Users/MarcosAlberto/Desktop/texto.txt"
+		"/C/Games/Cities Skylines/codex.ini"
 	],
 	"find":
 	{
@@ -351,6 +321,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@media",
 			"tr",
 			"tr.big",
 			"show",
@@ -458,361 +429,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sliderHerramientasResponsive.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								362,
-								362
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sliderHerramientasJSON.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1082,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								254,
-								254
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "herramientasJSON/prueba2.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": -0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "herramientasJSON/prueba.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								611,
-								611
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
