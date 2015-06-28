@@ -1,16 +1,14 @@
-//colors
+@import "skinGlobal.scss";
 
 $grey: grey;
-$color_tuna_approx: #363940;
 $color_prussian_blue_15_approx: rgba(0, 46, 82, 0.15);
 $white: #fff;
-$color_cerulean_approx: darken(rgb(164, 30,51), 20);
+
 $black: black;
 $color_alto_approx: #ddd;
 $color_mercury_approx: #e7e7e7;
 $black_12: rgba(0, 0, 0, 0.12);
 $black_30: rgba(0,0,0,0.3);
-$color_nevada_approx: #676d75;
 $color_log_cabin_approx: #222;
 $color_jaguar_87_approx: rgba(176, 200, 28, 0.87);
 $white_90: rgba(255,255,255,.9);
@@ -93,15 +91,15 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	color: $color_tuna_approx;
+	color: $color_primario;
 	font-family: $font_0, $font_1, $font_2, $font_3;
 	.body {
 		height: 100%;
 	}
-	.segundo {
+	.segundo-estilo-body-para-logged {
 	position: relative;
 	font-size: 14px;
-	color: $color_tuna_approx;
+	color: $color_primario;
 	font-family: $font_0, $font_1, $font_2, $font_3;
 
 	}
@@ -135,7 +133,7 @@ body {
 	}
 }
 .img-responsive {
-	border: 1px solid $color_tuna_approx;
+	border: 1px solid $color_primario;
 	margin-top: 30px;
 }
 @media(max-width: 992px) {
@@ -181,7 +179,7 @@ hr {
 	}
 }
 .footer {
-	background-color: $color_cerulean_approx !important;
+	background-color: $fondo_footer !important;
 	padding: 30px 0;
 	a {
 		text-decoration: none;
@@ -303,7 +301,7 @@ section {
 #header {
 }
 .text-main {
-	color: $color_tuna_approx;
+	color: $color_primario;
 }
 .text-white {
 	color: $white;
@@ -528,16 +526,16 @@ section {
 a {
 	&.rotate-box-1 {
 		text-decoration: none;
-		color: $color_tuna_approx;
+		color: $color_primario;
 		&:hover {
-			color: $color_nevada_approx;
+			color: $color_por_defecto_hover;
 		}
 	}
 	&.rotate-box-2 {
 		text-decoration: none;
-		color: $color_tuna_approx;
+		color: $color_primario;
 		&:hover {
-			color: $color_nevada_approx;
+			color: $color_por_defecto_hover;
 		}
 	}
 }
@@ -642,7 +640,7 @@ a {
 		li {
 			display: inline-block;
 			a {
-				color: $color_tuna_approx;
+				color: $color_primario;
 				background: transparent;
 				display: inline-block;
 				margin: 4px;
@@ -1307,4 +1305,8 @@ iframe {
 }
 .first-section {
   padding-top:2%;
+}
+
+th {
+	background-color: $color_por_defecto;
 }

@@ -357,7 +357,7 @@ tr:nth-of-type(odd) {
   background: #eee; 
 }
 th { 
-  background: #333; 
+  /*background: #	; */
   color: white; 
   font-weight: bold; 
 }
@@ -416,16 +416,16 @@ only screen and (max-width: 760px),
 	/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "Author"; }
-	td:nth-of-type(2):before { content: "Title"; }
+	td:nth-of-type(1):before { content: "Autor"; }
+	td:nth-of-type(2):before { content: "Título"; }
 	td:nth-of-type(3):before { content: "Year"; }
-	td:nth-of-type(4):before { content: "Journal/Proceedings"; }
-	td:nth-of-type(5):before { content: "Reftype"; }
+	td:nth-of-type(4):before { content: "Publicación"; }
+	td:nth-of-type(5):before { content: "Tipo"; }
 	td:nth-of-type(6):before { content: "DOI/URL"; }
 }
 </style>
-<!--<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">-->
-<!--<style type="text/css">
+<!--<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+<style type="text/css">
 body {background-color:transparent; font-family: Arial, sans-serif; font-size: 13px; line-height: 1.2; padding: 1em; color: #2E2E2E; margin: auto 2em; }
 
 form#quicksearch { width: auto; border-style: solid; border-color: gray; border-width: 1px 0px; padding: 0.7em 0.5em; display:none; position:relative; }
@@ -457,7 +457,6 @@ tr.noshow { display: none;}
 tr.highlight td { background-color: #EFEFEF; border-top: 2px #2E2E2E solid; font-weight: bold; }
 tr.abstract td, tr.review td, tr.bibtex td { background-color: #EFEFEF; text-align: justify; border-bottom: 2px #2E2E2E solid; }
 tr.nextshow td { border-bottom: 1px gray solid; }
-
 tr.bibtex pre { width: 100%; overflow: auto; white-space: pre-wrap;}
 p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 
@@ -466,7 +465,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	tr { page-break-inside: avoid; }
 }
 </style>-->
-
+<style>
+table#qs_table>tbody>tr.show { display:table-row;}
+</style>
 </head>
 <body>
 

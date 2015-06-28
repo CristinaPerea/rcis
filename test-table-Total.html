@@ -357,7 +357,7 @@ tr:nth-of-type(odd) {
   background: #eee; 
 }
 th { 
-  background: #333; 
+  /*background: #333; */
   color: white; 
   font-weight: bold; 
 }
@@ -416,11 +416,11 @@ only screen and (max-width: 760px),
 	/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "Author"; }
-	td:nth-of-type(2):before { content: "Title"; }
+	td:nth-of-type(1):before { content: "Autor"; }
+	td:nth-of-type(2):before { content: "Título"; }
 	td:nth-of-type(3):before { content: "Year"; }
-	td:nth-of-type(4):before { content: "Journal/Proceedings"; }
-	td:nth-of-type(5):before { content: "Reftype"; }
+	td:nth-of-type(4):before { content: "Publicación"; }
+	td:nth-of-type(5):before { content: "Tipo"; }
 	td:nth-of-type(6):before { content: "DOI/URL"; }
 }
 </style>
@@ -466,6 +466,13 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	tr { page-break-inside: avoid; }
 }
 </style>-->
+
+<style>
+table#qs_table>tbody>tr.bibtext pre {
+    width: 100%; overflow: auto; white-space: pre-wrap;
+}
+table#qs_table>tbody>tr.show { display:grid !important;}
+</style>
 
 </head>
 <body>

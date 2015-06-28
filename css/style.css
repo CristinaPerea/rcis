@@ -37,7 +37,7 @@ body {
   font-family: Roboto, Helvetica, Arial, sans-serif; }
   body .body {
     height: 100%; }
-  body .segundo {
+  body .segundo-estilo-body-para-logged {
     position: relative;
     font-size: 14px;
     color: #363940;
@@ -346,12 +346,12 @@ a.rotate-box-1 {
   text-decoration: none;
   color: #363940; }
   a.rotate-box-1:hover {
-    color: #676d75; }
+    color: #656a77; }
 a.rotate-box-2 {
   text-decoration: none;
   color: #363940; }
   a.rotate-box-2:hover {
-    color: #676d75; }
+    color: #656a77; }
 
 .progress {
   overflow: visible;
@@ -944,5 +944,8 @@ iframe.responsive-iframe-container-slider {
     position: relative; } }
 .first-section {
   padding-top: 2%; }
+
+th {
+  background-color: #363940; }
 
 /*# sourceMappingURL=style.css.map */

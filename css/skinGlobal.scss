@@ -1,0 +1,12 @@
+// Colores a tocar
+// Color primario: Color de menus + botones
+$color_primario: #363940;
+// Color secundario (afecta a la cabecera)
+$color_cabecera: rgb(164,30,51);
+// Color secundario: footer
+$fondo_footer: darken($color_cabecera, 20);
+// Color por defecto de los controles y menu
+//$color_por_defecto: #363940;
+//$color_por_defecto_hover: #676d75;
+$color_por_defecto: #363940;
+$color_por_defecto_hover: lighten($color_por_defecto, 20);

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".infolinks").toggle();
+	//$(".infolinks").toggle();
 	$(".tablaTotal").toggle();
 });
 
@@ -20,6 +20,6 @@ $(".botonFlip").click(function(event){
 		});	
 		$(".titulo-tablas-publicaciones").text("Publicaciones de la red");
 	}
-	event.preventDefaul();
+	event.preventDefault();
 	window.location.href = "#cta-section";
 });

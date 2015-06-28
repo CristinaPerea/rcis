@@ -1,14 +1,13 @@
+@import "../skinGlobal.scss";
 //colors
 $color_nevada_approx: #676d75;
 $white: #fff;
 $whitef: #fff;
 $color_woodsmoke_approx: #111;
-$color_tuna_approx: #363940;
 $color_shady_lady_approx: #a9a9a9;
 $black_8: rgba(0, 0, 0, 0.08);
 $color_celeste_approx: #ccc;
 $color_log_cabin_approx: #1f1f1f;
-$color_cerulean_approx: rgb(164,30,51);
 $black_30: rgba(0, 0, 0, 0.3);
 $color_desert_storm_approx: #f8f8f8;
 $color_tuna_95_approx: rgba(54, 57, 64, 0.95);
@@ -32,7 +31,7 @@ a {
 	}
 }
 .navbar-default {
-	background-color: $color_tuna_approx;
+	background-color: $color_por_defecto;
 	.navbar-brand {
 		color: $white;
 		&:focus {
@@ -49,7 +48,7 @@ a {
 		box-shadow: 0 6px 10px $black_8;
 	}
 	&.navbar-fixed-top.navbar-shrink {
-		background-color: $color_tuna_approx;
+		background-color: $color_por_defecto;
 		.navbar-brand {
 			color: $white;
 			&:hover {
@@ -213,12 +212,12 @@ a {
 	}
 }
 #text-carousel-intro-section {
-	background-color: $color_cerulean_approx;
+	background-color: $color_cabecera;
 	background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0), $black_30);
 	background-position: 50% 50%;
 }
 .progress {
-	border: 3px solid $color_tuna_approx;
+	border: 3px solid $color_por_defecto;
 	background-color: transparent;
 }
 .progress-bar {
@@ -246,54 +245,54 @@ a {
 .prices {
 	.price-box-featured {
 		.panel-heading {
-			background-color: $color_tuna_approx;
+			background-color: $color_por_defecto;
 			color: $white;
 		}
 		.panel-footer {
 			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: inset 0 -4px 0 $color_tuna_approx;
+			box-shadow: inset 0 -4px 0 $color_por_defecto;
 		}
 		.price-box-ribbon {
-			color: $color_tuna_approx;
+			color: $color_por_defecto;
 		}
 	}
 	.panel-default .panel-heading {
 		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset 0 4px 0 $color_tuna_approx;
+		box-shadow: inset 0 4px 0 $color_por_defecto;
 	}
 }
 #contact-section {
-	background-color: $color_tuna_approx;
+	background-color: $color_por_defecto;
 	.contact .contact-form button {
-		background-color: $color_tuna_approx;
+		background-color: $color_por_defecto;
 		&:hover {
 			background-color: $color_nevada_approx;
 		}
 	}
 }
 .footer-top {
-	background-color: $color_tuna_approx;
+	background-color: $color_por_defecto;
 }
 .footer {
 	background-color: $color_mine_shaft_approx;
 }
 .btn-default {
-	background: $color_tuna_approx;
+	background: $color_por_defecto;
 	color: $white;
 	&:focus {
-		background: $color_tuna_approx;
+		background: $color_por_defecto;
 		color: $white;
 	}
 	&.focus {
-		background: $color_tuna_approx;
+		background: $color_por_defecto;
 		color: $white;
 	}
 	&:active {
-		background: $color_tuna_approx;
+		background: $color_por_defecto;
 		color: $white;
 	}
 	&.active {
-		background: $color_tuna_approx;
+		background: $color_por_defecto;
 		color: $white;
 	}
 	&:hover {
@@ -411,17 +410,17 @@ body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand 
 	color: $color_celeste_approx;
 }
 .rotate-box-1.square-icon .rotate-box-icon {
-	background-color: $color_tuna_approx;
+	background-color: $color_por_defecto;
 }
 .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: $color_tuna_approx;
+	background-color: $color_por_defecto;
 }
 .active_prot_menu a {
-	background: $color_tuna_approx !important;
+	background: $color_por_defecto !important;
 	color: $white !important;
 }
 .portfolio_menu ul li a:hover {
-	background: $color_tuna_approx !important;
+	background: $color_por_defecto !important;
 	color: $white !important;
 }
 .portfolio_single_content div {
