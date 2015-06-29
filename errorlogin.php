@@ -17,7 +17,7 @@
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>R.C.I.S.</title>
+		<title>RCIS</title>
 		<meta name="description" content="RSCI - Red de Ciencia e Ingeniería de Servicios">
 		<meta name="keywords" content="HTML5, Bootsrtrap, Parallax, One Page, Responsive" />
 		<meta name="author" content="Cristina Perea - Marcos Ginel">
