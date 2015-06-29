@@ -1,16 +1,10 @@
 <?php
-	print("Hola Mundo");
-	$to = "cperea@us.es";
-	echo $to;
+	$to = "aruiz@us.es";
 	$nombre = $_POST['nombre'];
-	echo $nombre;
 	$email = $_POST['email'];
-	echo $email;
 	$asunto = $_POST['asunto'];
-	echo $asunto;
 	$mensaje = $_POST['mensaje'];
-	$mensaje = "De ".$email." <br>"."Mensaje: <br>".$mensaje;
-	echo $mensaje;
+	$mensaje = "De ".$email." \n"."Mensaje: \n".$mensaje;
 	if(mail($to, $asunto, $mensaje))
 		header("Location: errorlogin.php");
 	else
