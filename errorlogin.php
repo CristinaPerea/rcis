@@ -49,6 +49,9 @@
         <link rel="stylesheet" href="css/jquery-ui.css">
         <link rel="stylesheet" href="css/jquery-confirm.css">
 
+        <!-- Cabecera textos -->
+        <!--<link rel="stylesheet" href="css/cabeceraTextosResponsive.css">-->
+
         <script src="inc/jquery/jquery-1.11.1.min.js"></script>
         <script src="inc/bootstrap/js/bootstrap.min.js"></script>
         <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>

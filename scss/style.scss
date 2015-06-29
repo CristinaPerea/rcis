@@ -1,15 +1,14 @@
-@import "skinGlobal.scss";
-
-$grey: grey;
+//colors
+$color_tuna_approx: #363940;
 $color_prussian_blue_15_approx: rgba(0, 46, 82, 0.15);
 $white: #fff;
-$url_4: url(../img/pat-bg.png);
-$color_desert_storm_approx: #f8f8f8;
+$color_cerulean_approx: darken(rgb(164, 30,51), 20);
 $black: black;
 $color_alto_approx: #ddd;
 $color_mercury_approx: #e7e7e7;
 $black_12: rgba(0, 0, 0, 0.12);
 $black_30: rgba(0,0,0,0.3);
+$color_nevada_approx: #676d75;
 $color_log_cabin_approx: #222;
 $color_jaguar_87_approx: rgba(176, 200, 28, 0.87);
 $white_90: rgba(255,255,255,.9);
@@ -92,22 +91,18 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	color: $color_primario;
+	color: $color_tuna_approx;
 	font-family: $font_0, $font_1, $font_2, $font_3;
 	.body {
 		height: 100%;
 	}
-	.segundo-estilo-body-para-logged {
+	.segundo {
 	position: relative;
 	font-size: 14px;
-	color: $color_primario;
+	color: $color_tuna_approx;
 	font-family: $font_0, $font_1, $font_2, $font_3;
 
 	}
-}
-.navbar-nav > li > a.link-acceso-restringido{
-	text-transform: none;
-	text-decoration: underline;
 }
 
 .cover {
@@ -134,7 +129,7 @@ body {
 	}
 }
 .img-responsive {
-	border: 1px solid $color_primario;
+	border: 1px solid $color_tuna_approx;
 	margin-top: 30px;
 }
 @media(max-width: 992px) {
@@ -180,14 +175,11 @@ hr {
 	}
 }
 .footer {
-	background-color: $fondo_footer !important;
+	background-color: $color_cerulean_approx !important;
 	padding: 30px 0;
 	a {
 		text-decoration: none;
 	}
-}
-@media(min-width:1200px) {
-
 }
 #contact-section {
 	position: relative;
@@ -302,7 +294,7 @@ section {
 #header {
 }
 .text-main {
-	color: $color_primario;
+	color: $color_tuna_approx;
 }
 .text-white {
 	color: $white;
@@ -410,7 +402,7 @@ section {
 	}
 }
 #text-carousel-intro-section {
-	height: 25%;
+	height: 50%;
 	.container {
 		height: 100%;
 	}
@@ -421,7 +413,7 @@ section {
 		h1 {
 			margin-top: 0;
 			margin-bottom: 5px;
-			font-size: 45px;
+			font-size: 60px;
 			text-transform: uppercase;
 			//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 			text-shadow: 1px 1px 1px $black_30;
@@ -527,16 +519,16 @@ section {
 a {
 	&.rotate-box-1 {
 		text-decoration: none;
-		color: $color_primario;
+		color: $color_tuna_approx;
 		&:hover {
-			color: $color_por_defecto_hover;
+			color: $color_nevada_approx;
 		}
 	}
 	&.rotate-box-2 {
 		text-decoration: none;
-		color: $color_primario;
+		color: $color_tuna_approx;
 		&:hover {
-			color: $color_por_defecto_hover;
+			color: $color_nevada_approx;
 		}
 	}
 }
@@ -578,8 +570,8 @@ a {
 #cta-section {
 	padding: 70px 0 80px;
 }
-#cta-section2, #cta-section-outline  {
-	padding-top: 70px;
+#cta-section2 {
+	padding: 70px 0 80px;
 }
 
 #cta-section3 {
@@ -587,7 +579,7 @@ a {
 }
 
 #cta-section4 {
-	padding-top: 100px;
+	padding: 100px 0 80px;
 }
 .cta-btn {
 	margin-top: 30px;
@@ -641,7 +633,7 @@ a {
 		li {
 			display: inline-block;
 			a {
-				color: $color_primario;
+				color: $color_tuna_approx;
 				background: transparent;
 				display: inline-block;
 				margin: 4px;
@@ -1204,19 +1196,19 @@ ul {
 			background: rgba(0, 0, 0, 0);
 			width: 14px;
 			height: 14px;
-			border: 3px solid $grey;
+			border: 3px solid $white;
 			//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
 			transform: rotate(45deg);
 		}
 		&.active span {
 			background: rgba(0, 0, 0, 0);
-			border: 3px solid $black;
+			border: 3px solid $white;
 		}
 	}
 	&.clickable {
 		.owl-page:hover span {
 			background: rgba(0, 0, 0, 0);
-			border: 3px solid $grey;
+			border: 3px solid $white;
 		}
 		.owl-buttons div:hover {
 			opacity: .5;
@@ -1245,89 +1237,4 @@ ul {
 	height: 40px;
 	width: 40px;
 	font-family: $font_0;
-}
-
-
-   /* Código para hacer un iframe responsive*/
-
-.responsive-iframe-container-procedimientos, 
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-.responsive-iframe-container-procedimientos iframe,
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-iframe {
-	&.responsive-iframe-container-publicaciones {
-    position: relative;
-    padding-bottom:0px;
-    padding-top: 30px;
-    height: 400px;
-    overflow: hidden;}
-    &.responsive-iframe-container-slider {
-    position: relative;
-    padding-bottom:0px;
-    padding-top: 30px;
-    height: 600px;
-    width: 100%;
-    overflow: hidden;}
-    
-}
-
-
-@media(min-width:993px) {
-	.responsive-iframe-container iframe,   
-	.vresponsive-iframe-container object,  
-	.vresponsive-iframe-container embed {
-		width:720px;
-		height:435px;
-		position:relative;
-	}
-	iframe {
-		&.responsive-iframe-container-publicaciones {
-
-	    }
-	    &.responsive-iframe-container-slider {
-	    }
-	    
-	}
-}
-.first-section {
-  padding-top:2%;
-}
-
-th {
-	background-color: $color_por_defecto;
-}
-
-@media(max-width: 768px) {
-	.form-control {
-		height: 25px !important;
-	}
-}
-table {
-	&.top-right-border{
-		margin-left: 15%;
-		text-align:left;
-	}	
-}
-.wholeDocument{
-	background-color: transparent !important;
-	text-align: left;
-}
-
-#cta-section-outline {
-	background: $color_desert_storm_approx $url_4 repeat;
 }

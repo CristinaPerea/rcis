@@ -32,6 +32,8 @@
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" media="all" href="css/style_demo.css" />
+        <!-- Cabecera textos -->
+        <!--<link rel="stylesheet" href="css/cabeceraTextosResponsive.css">-->
 
         <!-- CSS Para sliders de Herramientas -->
         <!--<link href="css/bootstrapTheme.css" rel="stylesheet">-->

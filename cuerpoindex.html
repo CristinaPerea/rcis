@@ -41,9 +41,9 @@
                 </nav>
             </header>
 
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5">
+			<section id="text-carousel-intro-section" >
 				<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.7">
+					<div class="caption text-center text-white" >
 						<div id="" class="">
 							<div class="first-section">
 								<h1>Red de Ciencia e Ingeniería de Servicios</h1>
@@ -228,18 +228,18 @@
                         	<div class="col-sm-6">
                                 <div class="contact-form">
                                 	<h4>Escríbenos</h4>
-                                    <form role="form">
+                                    <form role="form" id="formularioContacto" action="enviarEmail.php" name="formularioContacto" method="POST">
                                         <div class="form-group">
-                                            <input type="text" class="form-control input-lg" placeholder="Nombre" required>
+                                            <input type="text" class="form-control input-lg" id="nombre" name="nombre" placeholder="Nombre" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+                                            <input type="email" class="form-control input-lg" id="email" name="email" placeholder="E-mail" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control input-lg" placeholder="Asunto" required>
+                                            <input type="text" class="form-control input-lg" id="asunto" name="asunto" placeholder="Asunto" required>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control input-lg" rows="5" placeholder="Mensaje" required></textarea>
+                                            <textarea class="form-control input-lg" rows="5" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
                                         </div>
                                         <button type="submit" class="btn btn-blank wow bounceInRight" data-wow-delay="0.8s">Enviar</button>
                                     </form>

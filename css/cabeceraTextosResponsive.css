@@ -1,0 +1,28 @@
+#text-carousel-intro-section .caption h1 {
+  font-size: 60px !important; }
+
+@media only screen and (max-width: 1200px) {
+  #text-carousel-intro-section .caption h1 {
+    font-size: 35px !important; } }
+@media only screen and (max-width: 992px) {
+  #text-carousel-intro-section .caption h1 {
+    font-size: 25px !important; } }
+@media only screen and (max-width: 767px) {
+  #text-carousel-intro-section .caption h1 {
+    font-size: 20px !important; } }
+@media only screen and (max-width: 480px) {
+  #text-carousel-intro-section {
+    padding-bottom: 5%; }
+    #text-carousel-intro-section .caption h1 {
+      font-size: 18px !important; }
+    #text-carousel-intro-section .caption h3 {
+      font-size: 6px !important; } }
+@media only screen and (max-width: 320px) {
+  #text-carousel-intro-section {
+    padding-top: 150px; }
+    #text-carousel-intro-section .caption h1 {
+      font-size: 18px !important; }
+    #text-carousel-intro-section .caption h3 {
+      font-size: 6px !important; } }
+
+/*# sourceMappingURL=cabeceraTextosResponsive.css.map */
