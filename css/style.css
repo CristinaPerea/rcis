@@ -385,7 +385,7 @@ a.rotate-box-2 {
 #cta-section {
   padding: 70px 0 80px; }
 
-#cta-section2 {
+#cta-section2, #cta-section-outline {
   padding-top: 70px; }
 
 #cta-section3 {
@@ -951,5 +951,13 @@ th {
 @media (max-width: 768px) {
   .form-control {
     height: 25px !important; } }
+table.top-right-border {
+  margin-left: 15%; }
+
+.wholeDocument {
+  background-color: transparent !important; }
+
+#cta-section-outline {
+  background: #f8f8f8 url(../img/pat-bg.png) repeat; }
 
 /*# sourceMappingURL=style.css.map */

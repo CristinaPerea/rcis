@@ -19,7 +19,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>R.C.I.S.</title>
+        <title>RCIS</title>
         <meta name="description" content="Unika - Responsive One Page HTML5 Template">
         <meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
         <meta name="author" content="imransdesign.com">
@@ -68,6 +68,7 @@
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
+                                <li><a class="page-scroll" href="#cta-section-outline">Outline</a></li>
                                 <li><a class="page-scroll" href="#cta-section4">Procedimientos</a></li>                    
                                 <li><a class="page-scroll" href="#cta-section2">Recursos</a></li>
                                 <li><a href="logout.php" class="link-acceso-restringido">Salir</a></li>
@@ -76,6 +77,24 @@
                     </div>
                 </nav>
             </header>
+
+            <section id="cta-section-outline">
+                 <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h2>Outline</h2>
+                            <div class="devider"></div>
+                            <div class="extra-space-l"></div>
+                            <div class="container" width:800px height:500>
+                                <?php 
+                                    echo file_get_contents("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSm5GcFpsN0owZjQ");
+                                ?> 
+                            </div>
+                        </div>
+                    </div>
+                
+
+            </section>
 
             <section id="cta-section4">
                 <div class="cta">

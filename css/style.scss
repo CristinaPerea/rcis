@@ -3,7 +3,8 @@
 $grey: grey;
 $color_prussian_blue_15_approx: rgba(0, 46, 82, 0.15);
 $white: #fff;
-
+$url_4: url(../img/pat-bg.png);
+$color_desert_storm_approx: #f8f8f8;
 $black: black;
 $color_alto_approx: #ddd;
 $color_mercury_approx: #e7e7e7;
@@ -577,7 +578,7 @@ a {
 #cta-section {
 	padding: 70px 0 80px;
 }
-#cta-section2 {
+#cta-section2, #cta-section-outline  {
 	padding-top: 70px;
 }
 
@@ -1315,4 +1316,17 @@ th {
 	.form-control {
 		height: 25px !important;
 	}
+}
+table {
+	&.top-right-border{
+		margin-left: 15%;
+	}	
+}
+.wholeDocument{
+	background-color: transparent !important;
+	
+}
+
+#cta-section-outline {
+	background: $color_desert_storm_approx $url_4 repeat;
 }
