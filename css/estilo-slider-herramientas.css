@@ -13,7 +13,11 @@
 
 .texto-slider-herramientas {
 	padding-top: 25%;
-	padding-bottom: 25%;
+	padding-bottom: 2%;
+        font-weight: bold;
+}
+.texto-slider-herramientas-descripcion{
+        font-weight: bold;
 }
 
 @media(max-width: 992px) {

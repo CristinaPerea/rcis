@@ -15,10 +15,11 @@
 					$elemento = '<div class="container item"><div class="col-md-6"><img src="';
 					$elemento .= $miherramientavalue->{'imagen'};
 					$elemento .= '"class="img-responsive"/></div><div class="col-md-6"><p class="texto-slider-herramientas">';
-					$elemento .= $miherramientavalue->{'nombreHerramienta'};
-					$elemento .= '<br/>';
-					$elemento .= $miherramientavalue->{'descripcion'};
-					$elemento .= '<br/><a href="';
+					$temp = $miherramientavalue->{'nombreHerramienta'}.'</p>';
+					$elemento .= $temp;
+					$elemento .= '<p class="texto-slider-herramientas-descripcion">';
+					$elemento .= $miherramientavalue->{'descripcion'}.'</p>'	;
+					$elemento .= '<br><br><br><a href="';
 					$elemento .= $miherramientavalue->{'enlace'};
 					$elemento .= '" class="btn btn-default">Enlace</a></p></div></div>';
 					echo $elemento;
