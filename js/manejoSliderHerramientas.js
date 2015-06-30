@@ -12,3 +12,25 @@ $(document).ready(function() {
        pagination: false
      });
 });
+
+$('.botonFlipHerramientas').click(function(event) {
+      var opcion = $(this).text();
+
+      if(opcion == "Ver listado de herramientas"){
+            $("div.span12").slideUp(function() {
+                  //$(".owl-wrapper-outer").css({'display':'false'});
+                  $(".lista-herramientas-totales").css({'display':'true'});
+                  $(".lista-herramientas-totales").slideDown(1000);
+
+            });
+            $(this).text("Volver");
+      }
+      else {
+            $(this).text("Ver listado de herramientas");
+            $(".lista-herramientas-totales").slideUp(1000, function() {
+                  $("div.span12").css({'display':'true'});
+                  $("div.span12").slideDown();
+            });   
+      }
+      event.preventDefault();
+});

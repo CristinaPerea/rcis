@@ -964,4 +964,15 @@ table.top-right-border {
 #cta-section-outline {
   background: #f8f8f8 url(../img/pat-bg.png) repeat; }
 
+/* Clases para la lista de herramientas totales. Por defecto, va a venir como cerrado todo. 
+	Una vez clickeado el bot├│n de las herramientas, mostraremos la lista con un evento onclick de jQuery.
+	Luego, al pulsar en cada logo, se desplegar├í todas las herramientas de dicho "instituci├│n" [cambiando]
+	el display de datos-lista-herramientas que corresponda.
+*/
+.datos-de-herramienta-lista {
+  display: none; }
+
+.lista-herramientas-totales {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
