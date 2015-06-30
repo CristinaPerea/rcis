@@ -4,24 +4,44 @@
 		"selected_items":
 		[
 			[
-				"respon",
-				"responsive-iframe-container-procedimientos"
-			],
-			[
-				"responsive-",
-				"responsive-iframe-container"
-			],
-			[
-				"icon-",
-				"icon-file-text2"
-			],
-			[
-				"session_",
-				"session_start"
-			],
-			[
 				"font",
-				"font_0"
+				"font-weight"
+			],
+			[
+				"cta-sec",
+				"cta-section2"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"if",
+				"iframe	Tag"
+			],
+			[
+				"color",
+				"color_cerulean_approx"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"border",
@@ -55,34 +75,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cuerpoindex.html",
+			"settings":
+			{
+				"buffer_size": 17493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sliderHerramientasJSON.html",
+			"settings":
+			{
+				"buffer_size": 1177,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.scss",
+			"settings":
+			{
+				"buffer_size": 31839,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/estilo-slider-herramientas.css",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
-	"build_system_choices":
-	[
-		[
-			[
-				[
-					"Packages/SASS Build/SASS - Compressed.sublime-build",
-					""
-				],
-				[
-					"Packages/SASS Build/SASS.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/SASS Build/SASS.sublime-build",
-				""
-			]
-		]
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -140,7 +175,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -167,57 +202,46 @@
 	[
 		"/C/xampp/htdocs/rcis",
 		"/C/xampp/htdocs/rcis/css",
-		"/C/xampp/htdocs/rcis/css/skin",
-		"/C/xampp/htdocs/rcis/inc",
-		"/C/xampp/htdocs/rcis/inc/owl-carousel",
-		"/C/xampp/htdocs/rcis/inc/owl-carousel/css",
-		"/C/xampp/htdocs/rcis/inc/owl-carousel/js",
 		"/C/xampp/htdocs/rcis/js"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/rcis/js/loginMobile.js",
+		"/C/xampp/htdocs/rcis/js/manejoSliderHerramientas.js",
+		"/C/xampp/htdocs/rcis/js/manejoDeTablas.js",
 		"/C/xampp/htdocs/rcis/cuerpoindex.html",
 		"/C/xampp/htdocs/rcis/logged.php",
-		"/C/xampp/htdocs/rcis/css/style.scss",
-		"/C/xampp/htdocs/rcis/css/skin/cool-gray.scss",
-		"/C/xampp/htdocs/rcis/index.php",
+		"/C/Users/criperrui/Google Drive/Drupal Summer/Sesión7Cris.txt",
+		"/C/xampp/htdocs/rcis/errorlogin.php",
 		"/C/xampp/htdocs/rcis/sliderHerramientasResponsive.html",
 		"/C/xampp/htdocs/rcis/sliderHerramientasJSON.html",
-		"/C/xampp/htdocs/rcis/herramientasJSON/prueba2.json",
-		"/C/xampp/htdocs/rcis/herramientasJSON/prueba.json",
-		"/C/xampp/htdocs/pruebaJSONPhp/prueba2.json",
-		"/C/xampp/htdocs/pruebaJSONPhp/sliderHerramientasJSON.php",
-		"/C/xampp/htdocs/rcis/test-table-Resumen.html",
-		"/C/xampp/htdocs/rcis/test-table-Total.html",
-		"/C/xampp/htdocs/rcis/css/skinGlobal.scss",
-		"/C/xampp/htdocs/rcis/js/manejoDeTablas.js",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/xampp/htdocs/rcis/scriptsSliderHerramientasFinales.html",
-		"/C/xampp/htdocs/rcis/errorlogin.php",
-		"/C/xampp/htdocs/rcis/js/theme.js",
-		"/C/xampp/htdocs/rcis/js/cambiaVistaRecursosDrive.js",
-		"/C/xampp/htdocs/rcis/css/fontsDrive.css",
-		"/C/xampp/htdocs/rcis/css/fuenteDrive.css",
-		"/C/xampp/htdocs/rcis/css/estilo-slider-herramientas.css",
-		"/C/Users/MarcosAlberto/Desktop/click.html",
-		"/C/xampp/htdocs/owlCarousel/demos/one.html",
-		"/C/xampp/htdocs/owlCarousel/demos/images.html",
-		"/C/xampp/htdocs/rcisPrueba/test-table-pro.html",
-		"/C/xampp/htdocs/rcisPrueba/index.php",
-		"/C/xampp/htdocs/rcis/publicaciones-rcis.html",
+		"/C/xampp/htdocs/rcis/Popover requires tooltip.html",
+		"/C/xampp/htdocs/rcis/test-table-Resumen.html",
+		"/C/xampp/htdocs/rcis/css/style.scss",
+		"/C/xampp/htdocs/rcis/css/mobile.css",
+		"/C/xampp/htdocs/rcis/css/skin/cool-gray.scss",
+		"/C/xampp/htdocs/rcis/index.php",
 		"/C/xampp/htdocs/rcis/test-table-pro.html",
+		"/C/xampp/htdocs/rcis/js/cambiaVistaRecursosDrive.js",
+		"/C/xampp/htdocs/rcis/css/skinGlobal.scss",
+		"/C/xampp/htdocs/pruebaScandirphp/index.php",
+		"/C/xampp/htdocs/rcis/indexOutline.html",
+		"/C/xampp/htdocs/pruebaOutliner/index.html",
+		"/C/Users/criperrui/Downloads/index.html",
+		"/C/xampp/htdocs/rcis/js/theme.js",
+		"/C/xampp/htdocs/parallax/index2.html",
+		"/C/xampp/htdocs/rcis/publicaciones-rcis.html",
 		"/C/xampp/htdocs/rcis/css/style.css",
-		"/C/xampp/htdocs/rcis/publicaciones-rcis.table",
-		"/C/Users/MarcosAlberto/Downloads/publicaciones-rcis.table",
-		"/C/xampp/htdocs/rcis/logout.php",
-		"/C/Users/MarcosAlberto/Desktop/test/index.html",
-		"/C/xampp/htdocs/rcis/index.html",
+		"/C/xampp/htdocs/rcis/css/style_demo.css",
+		"/C/xampp/htdocs/rcis/index3.html",
+		"/C/xampp/htdocs/parallax/index3.html",
+		"/C/xampp/htdocs/parallax/style_demo.css",
+		"/C/xampp/htdocs/parallax/jMyCarousel.min.js",
+		"/C/xampp/htdocs/parallax/estiloprueba.css",
+		"/C/xampp/htdocs/parallax/jsprueba.js",
+		"/C/Users/criperrui/Downloads/test-table-pro.html",
 		"/C/xampp/htdocs/rcis/logged.html",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
-		"/C/Users/MarcosAlberto/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/xampp/htdocs/rcis/index.html",
 		"/C/xampp/htdocs/rcis/scss/style.scss",
 		"/C/xampp/htdocs/rcis/scss/style.css",
 		"/C/xampp/htdocs/rcis/scss/cool-gray.scss",
@@ -228,12 +252,10 @@
 		"/C/xampp/htdocs/rcis/css/reset.css",
 		"/C/xampp/htdocs/rcis/css/skin/cool-grayOriginal.css",
 		"/C/xampp/htdocs/parallax/scrollTransition.js",
-		"/C/xampp/htdocs/rcis/css/mobile.css",
 		"/C/xampp/htdocs/rcis/css/skin/cool-gray.css",
 		"/C/xampp/htdocs/rcis/index-2.html",
 		"/C/xampp/htdocs/parallax/estilo2.css",
 		"/C/xampp/htdocs/parallax/main.js",
-		"/C/xampp/htdocs/parallax/index2.html",
 		"/C/xampp/htdocs/parallax/estilo.css",
 		"/C/xampp/htdocs/parallax/index.html",
 		"/C/Users/MarcosAlberto/Desktop/DrupalAcademy Sesion 5/Notas 5.txt",
@@ -303,17 +325,26 @@
 		"/F/Juegos/Heroes VI/Might.and.Magic.Heroes.VI.Complete.Edition-PROPHET/prophet.nfo",
 		"/D/Games/Ori and the Blind Forest/codex.ini",
 		"/C/Users/MarcosAlberto/AppData/Local/Temp/8BFF.tmp",
-		"/C/Games/Cities Skylines/codex.ini"
+		"/C/Games/Cities Skylines/codex.ini",
+		"/C/Users/MarcosAlberto/Music/iTunes/iTunes Music Library.xml",
+		"/C/Users/MarcosAlberto/Desktop/texto.txt",
+		"/D/Dropbox/Capushas/3-Tercero/2º Cuatrimestre/MASI/Prácticas/PL2_MASI_sc.sws",
+		"/C/Users/MarcosAlberto/git2/sos-2015-02/prueba-de-proyecto/war/WEB-INF/.gitignore",
+		"/C/Users/MarcosAlberto/Desktop/Git y eGit.txt",
+		"/C/Users/MarcosAlberto/Desktop/descripcion.html",
+		"/F/Juegos/Brink/postmortem.nfo",
+		"/G/PRINCE OF PERSIA GOLD.nfo"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 96.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -321,46 +352,50 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"@media",
-			"tr",
-			"tr.big",
-			"show",
-			"toggleinfo",
-			"entry show",
-			"toggleinfo",
-			"color_nevada_approx",
-			"hover",
-			"333",
-			"th",
-			"333",
-			"th",
-			"color_tuna_approx",
-			"$color_tuna_approx",
-			"#363940",
-			"save",
-			"color_cabecera",
-			"color_cerulean_approx",
-			"$color_cerulean_approx",
-			"color_tuna_approx",
-			"color_cerulean_approx",
-			"$color_cerulean_approx",
-			"owl",
-			"segundo",
-			"992",
-			"@media",
-			"iframe",
-			"@media",
-			"p class=\"infol",
-			"thead",
-			"text-",
-			"text-ca",
-			"table",
-			"<p class=\"infolinks\"",
-			"bibtext",
-			"Bibtext",
-			"BiBText",
-			"jquery-ui",
-			".js",
+			"texto-slider",
+			"jquery",
+			"jq",
+			"jquer",
+			"collapse",
+			"display",
+			"display:",
+			"colapse",
+			"<div class=\"extra-space-l\"></div>",
+			"extra",
+			"text-carousel",
+			"cta",
+			"cta-",
+			"back",
+			";\n",
+			"outl",
+			"\");\n",
+			"ico",
+			"ico ",
+			"cta-s",
+			".css",
+			".cc",
+			"owl-demo",
+			"owl-wrapp",
+			"participantes",
+			"botonFlip",
+			"center",
+			"demo",
+			"jMyCarousel",
+			"style_demo.css",
+			"jMyCarousel",
+			"@me",
+			"backgro",
+			"backg",
+			"height",
+			".link",
+			".testi",
+			"dropdown",
+			"dropdown-",
+			"dropdown-t",
+			"dropd",
+			"navLogin",
+			"nav",
+			"media",
 			"font",
 			"text-ca",
 			"#cta-section",
@@ -406,13 +441,6 @@
 		"regex": true,
 		"replace_history":
 		[
-			"color_por_defecto_hover",
-			"color_por_defecto",
-			"color_cabecera",
-			"$color_cabecera",
-			"color_primario",
-			"fondo_footer",
-			"",
 			",",
 			"",
 			",",
@@ -429,8 +457,127 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cuerpoindex.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13277,
+								13277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4712.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sliderHerramientasJSON.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2774,
+								2778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1876.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/estilo-slider-herramientas.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								502,
+								502
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -471,13 +618,12 @@
 	},
 	"output.exec":
 	{
-		"height": 118.0
+		"height": 96.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "project.sublime-project",
 	"replace":
 	{
@@ -487,7 +633,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -496,7 +641,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -505,7 +649,6 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -519,7 +662,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 263.0,
+	"side_bar_width": 169.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
