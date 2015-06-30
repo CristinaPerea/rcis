@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es-ES">
 <head>
@@ -32,6 +33,9 @@
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" media="all" href="css/style_demo.css" />
+        <!-- Popups -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-confirm.css">
         <!-- Cabecera textos -->
         <!--<link rel="stylesheet" href="css/cabeceraTextosResponsive.css">-->
 
@@ -52,10 +56,33 @@
         <script src="inc/jquery.counterup.min.js"></script>
         <script src="inc/classie.js"></script>
         <script src="inc/smoothscroll.js"></script>
-        
+        <!-- Scripts Popups -->
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery-confirm.min.js"></script>
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
         <?php include("cuerpoindex.html"); ?>
+        
+        <?php 
+            if(isset($_GET["error"])){
+
+
+                if($_GET["error"] === "1")
+                     echo '<script>
+                     $.alert({
+                         title: "Error",
+                        content: "Su email no ha podido ser enviado. Inténtelo de nuevo",
+                     });
+                        </script>';
+                else
+                    echo '<script>
+                $.alert({
+                        title: "Enhorabuena",
+                        content: "Su email ha sido enviado con éxito",
+                    });
+            </script>   ';
+            }
+        ?>
     </body> 
 </html>

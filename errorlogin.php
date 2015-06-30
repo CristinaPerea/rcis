@@ -76,6 +76,7 @@
 
     <body data-spy="scroll" data-target="#main-navbar">
         <?php include("cuerpoindex.html"); ?>
+        <?php include("popupsEmails.php"); ?>
         <script>
             $.alert({
                     title: 'Error',

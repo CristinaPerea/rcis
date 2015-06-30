@@ -71,14 +71,14 @@ only screen and (max-width: 760px),
 	td:nth-of-type(2):before { content: "Título"; }
 	td:nth-of-type(3):before { content: "Year"; }
 	td:nth-of-type(4):before { content: "Publicación"; }
-	td:nth-of-type(6):before { content: "DOI/URL"; }
+	td:nth-of-type(6):before { content: "PDF"; }
 }
 </style>
 <div class="">
 	<?php 
 		include_once("lectorCSV.php");
 		$miarray = loadDataFromCSVEncoding("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSGlhdGlYbGpYZTg&export?format=download");
-		$mensaje = '<table id="qs_table" border="1" class=""><thead><tr><th width="20%">Autor</th><th width="30%">Título</th><th width="5%">Año</th><th width="30%">Publicación/Procedencia</th><th width="5%">DOI/URL</th></tr></thead><tbody>';
+		$mensaje = '<table id="qs_table" border="1" class=""><thead><tr><th width="20%">Autor</th><th width="30%">Título</th><th width="5%">Año</th><th width="30%">Publicación/Procedencia</th><th width="5%">PDF</th></tr></thead><tbody>';
 		for($i=1; $i<sizeof($miarray); $i++){
 			$id = $miarray[$i][2];
 
