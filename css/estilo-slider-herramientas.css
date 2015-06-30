@@ -19,7 +19,22 @@
 .texto-slider-herramientas-descripcion{
         font-weight: bold;
 }
+.slider-logo-1{
+        height:57px !important;
+}
+.slider-logo-2{
+        height:57px !important;
+       
+}
 
+.logo-derecha-slider {
+        float: right;
+}
+
+.logos-de-slider {
+        height: 57px !important;
+
+}
 @media(max-width: 992px) {
 	.texto-slider-herramientas {
 		padding-top: 0px;

@@ -21,11 +21,11 @@
 			$enlaceWeb = $miarray[$i][6];
 			//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 
-					$elemento = '<div class="container item"><div class="slider-fila-1"><div class="slider-logo-1 col-md-6"><img src="';
+					$elemento = '<div class="container item"><div class="slider-fila-1"><div class="slider-logo-1 col-md-6 col-xs-6"><img src="';
 					$elemento .= $enlaceLogoHerramienta;
-					$elemento .= '" class="img-responsive"/></div><div class="slider-logo-2 col-md-6"><img src="';
+					$elemento .= '" class="img-responsive logos-de-slider"/></div><div class="slider-logo-2 col-md-6 col-xs-6 "><img src="';
 					$elemento .= $enlaceLogoGrupo;
-					$elemento .= '" class="img-responsive"/></div></div>';
+					$elemento .= '" class="img-responsive logos-de-slider logo-derecha-slider"/></div></div>';
 					$elemento .= '<div class="slider-fila-2"><div class="col-md-6"><img src="';
 					$elemento .= $imagenDeHerramienta;
 					$elemento .= '"class="img-responsive"/></div><div class="col-md-6"><p 	class="texto-slider-herramientas">';
