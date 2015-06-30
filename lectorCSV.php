@@ -17,7 +17,7 @@ function loadDataFromCSV($url) {
 		$contador++;
 	}
 	fclose($file_handle);
-	print_r($ficheroEnArray);
+	//print_r($ficheroEnArray);
 	return $ficheroEnArray;
 }
 
