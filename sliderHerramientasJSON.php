@@ -28,7 +28,7 @@
 					$elemento .= '" class="img-responsive logos-de-slider logo-derecha-slider"/></div></div>';
 					$elemento .= '<div class="slider-fila-2"><div class="col-md-6"><img src="';
 					$elemento .= $imagenDeHerramienta;
-					$elemento .= '"class="img-responsive"/></div><div class="col-md-6"><p 	class="texto-slider-herramientas">';
+					$elemento .= '"class="img-responsive img-responsive-capturas"/></div><div class="col-md-6"><p 	class="texto-slider-herramientas">';
 					$temp = $nombreHerramienta.'</p>';
 					$elemento .= $temp;
 					$elemento .= '<p class="texto-slider-herramientas-descripcion">';
