@@ -123,8 +123,9 @@
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                             <h2>Recursos</h2>
                             <div class="devider"></div>
-                            <div id="row">
-                                <button id="boton-vista-drive" class="btn btn-default"><span class="icon-file-text2"></span></button>
+                            <div id="row" class="selectores-drive">
+                                <button id="boton-vista-drive-file" class="btn btn-default"><span class="icon-file-text2"></span></button>
+                                <button id="boton-vista-drive-list" class="btn"><span class="icon-list"></span></button>
                             </div>
                             <div class="extra-space-l"></div>
                             <div id="row">

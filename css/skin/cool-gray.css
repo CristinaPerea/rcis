@@ -296,6 +296,9 @@ body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand 
 .tweet-content span {
   color: #111; }
 
+div#row.selectores-drive {
+  float: right; }
+
 @media (max-width: 768px) {
   ul.navbar-nav > li > a {
     padding: 1px !important;

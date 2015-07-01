@@ -1055,6 +1055,12 @@ ul {
 		transition: all 0.6s ease-in-out;
 	}
 }
+.btn-default-encendido{
+	background-color: black !important;
+}
+.btn-default-apagado{
+	background-color: white !important;
+}
 .btn-blank {
 	border: 2px solid $white;
 	color: $white;

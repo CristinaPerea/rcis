@@ -300,6 +300,7 @@ a {
 		background: $color_nevada_approx;
 	}
 }
+
 .btn-primary {
 	background-color: $color_astral_approx;
 	color: $white;
@@ -434,6 +435,9 @@ body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand 
 }
 .tweet-content span {
 	color: $color_woodsmoke_approx;
+}
+div#row.selectores-drive{
+	float: right;
 }
 
 @media(max-width: 768px) {

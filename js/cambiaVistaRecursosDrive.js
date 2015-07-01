@@ -1,28 +1,38 @@
 $(document).ready(function(){
-	$('#boton-vista-drive').click(function() {
-		var actual = $('#boton-vista-drive').children(":first");
+	$('#boton-vista-drive-file').click(function() {
+		var botonFile = $('#boton-vista-drive-file');
+		var estado = $(botonFile).attr('class');
+		
 		//console.log(actual);
-		var icono = $(actual).attr('class');
-		//console.log(actual);
-		if(icono == 'icon-file-text2')
+		if(!(estado == "btn btn-default"))
 		{
-			$(actual).removeClass("icon-file-text2");
-			$(actual).addClass("icon-list");
+			$(botonFile).toggleClass("btn-default");
 			var miframe = $('#iframe-recursos');
 			var enlace = $(miframe).attr('src');
+			var botonList = $('#boton-vista-drive-list');
+			botonList.toggleClass("btn-default");
+			//console.log(enlace);
+			var nuevoEnlace = enlace.replace("#list", "#grid");
+			$(miframe).attr('src', nuevoEnlace);
+		}
+		
+	});
+	$('#boton-vista-drive-list').click(function() {
+		var botonList = $('#boton-vista-drive-list');
+		var estado = $(botonList).attr('class');
+		console.log(estado);
+		//console.log(actual);
+		if(!(estado == "btn btn-default"))
+		{
+			$(botonList).toggleClass("btn-default");
+			var miframe = $('#iframe-recursos');
+			var enlace = $(miframe).attr('src');
+			var botonFile = $('#boton-vista-drive-file');
+			botonFile.toggleClass("btn-default");
 			//console.log(enlace);
 			var nuevoEnlace = enlace.replace("#grid", "#list");
 			$(miframe).attr('src', nuevoEnlace);
 		}
-		else
-		{
-			$(actual).removeClass("icon-list");
-			$(actual).addClass("icon-file-text2");
-			var miframe = $('#iframe-recursos');
-			var enlace = $(miframe).attr('src');
-			console.log(enlace);
-			var nuevoEnlace = enlace.replace("#list", "#grid");
-			$(miframe).attr('src', nuevoEnlace);
-		}
+		
 	});
 });
