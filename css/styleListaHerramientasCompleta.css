@@ -43,7 +43,22 @@ div.cabecera-lista-herramientas {
   padding-top: 2%;
   text-align: left; }
 
-.imagen-logo-herramienta .img-responsive {
-  margin-top: 0px; }
+.texto-descripcion-herramienta {
+  padding-top: 11%; }
+
+.cabecera-de-herramienta-lista {
+  background: 1px solid black; }
+
+/*
+.imagen-logo-herramienta {
+	margin-top: 0px;
+	width: 70px;
+}
+
+@media (max-width:719px) {
+	.texto-descripcion-herramienta {
+		//padding-top:2%;
+	}
+}*/
 
 /*# sourceMappingURL=styleListaHerramientasCompleta.css.map */

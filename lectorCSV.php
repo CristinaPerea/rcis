@@ -31,6 +31,7 @@ function loadDataFromCSVEncoding($url) {
 	$ficheroEnArray = array();
 	while (!feof($file_handle) ) {
 		$line_of_text = fgetcsv($file_handle, 1024);
+		//echo gettype($line_of_text);
 		$line_of_text = array_map( "convert", $line_of_text );
 		array_push($ficheroEnArray, $line_of_text);
 		$j = 0;

@@ -57,15 +57,20 @@ div.cabecera-lista-herramientas {
 }
 
 .texto-descripcion-herramienta {
-	//padding-top:11%;
+	padding-top:11%;
+}
+.cabecera-de-herramienta-lista {
+	background: 1px solid black;
 }
 
-.imagen-logo-herramienta .img-responsive {
+/*
+.imagen-logo-herramienta {
 	margin-top: 0px;
+	width: 70px;
 }
 
 @media (max-width:719px) {
 	.texto-descripcion-herramienta {
 		//padding-top:2%;
 	}
-}
+}*/
