@@ -12,7 +12,7 @@ $(document).ready(function() {
        pagination: false
      });
 });
-
+/*
 $('.botonFlipHerramientas').click(function(event) {
       var opcion = $(this).text();
 
@@ -33,4 +33,4 @@ $('.botonFlipHerramientas').click(function(event) {
             });   
       }
       event.preventDefault();
-});
+});*/

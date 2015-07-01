@@ -1,0 +1,71 @@
+/* Clases para la lista de herramientas totales. Por defecto, va a venir como cerrado todo. 
+	Una vez clickeado el botón de las herramientas, mostraremos la lista con un evento onclick de jQuery.
+	Luego, al pulsar en cada logo, se desplegará todas las herramientas de dicho "institución" [cambiando]
+	el display de datos-lista-herramientas que corresponda.
+*/
+
+.datos-de-herramienta-lista {
+	display:none;
+}
+
+.lista-herramientas-totales {
+	display:none;
+}
+
+div.cabecera-lista-herramientas {
+	height: 80px;
+	clear: both;
+	text-align: left;
+	border: 1px solid black;
+}
+
+.logo-institucion-en-cabecera-lista-herramientas {
+	height: inherit;
+
+}
+
+.nombre-institucion-en-cabecera-lista-herramientas {
+	height: inherit;
+}
+
+.nombre-institucion-en-cabecera-lista-herramientas>p {
+	position:relative;
+	padding-top: 25px;
+	padding-bottom: 40%;
+}
+
+.cabecera-de-herramienta-lista {
+	height: 50px;
+}
+
+.logo-de-herramienta, .nombre-de-herramienta, .imagen-logo-herramienta {
+	height: inherit;
+
+}
+
+.logo-de-herramienta, .imagen-logo-de-herramienta, .text-herramienta {
+	width: 20%;
+}
+
+.icono-despliegue {
+	margin-top: 17px;
+}
+
+.texto-herramienta {
+	padding-top: 2%;
+	text-align: left;
+}
+
+.texto-descripcion-herramienta {
+	//padding-top:11%;
+}
+
+.imagen-logo-herramienta .img-responsive {
+	margin-top: 0px;
+}
+
+@media (max-width:719px) {
+	.texto-descripcion-herramienta {
+		//padding-top:2%;
+	}
+}

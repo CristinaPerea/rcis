@@ -22,10 +22,13 @@
 		if(!in_array($grupo, $gruposAñadidos)){
 			array_push($gruposAñadidos, $grupo);
 			$logoGrupo = $arrayGrupos[$i][4];
-			$elemento .=  '<div id="cabecera'.$grupo.' class="cabecera-lista-herramientas row">';
-			$elemento .=	'<div class="col-md-12">';
+			$elemento .=  '<div id="cabecera'.$grupo.'" class="cabecera-lista-herramientas row">';
+			$elemento .=	'<div class="col-md-1 col-sm-6 col-xs-6 logo-institucion-en-cabecera-lista-herramientas">';
 			$elemento .=		'<img src="'.$logoGrupo.'"></img>';
 			$elemento .=	'</div>';
+			$elemento .=    '<div class="col-md-11 col-sm-6 col-xs-6 nombre-institucion-en-cabecera-lista-herramientas">';
+			$elemento .=		'<p class=>Institución: '.$grupo.'</p>';
+			$elemento .= 	'</div>';
 			$elemento .=  '</div>';
 			$elemento .=  '<div id="herramientas'.$grupo.'" class="datos-lista-herramientas">';
 		}
@@ -40,19 +43,20 @@
 				$enlaceWeb = $arrayHerramientas[$i][6];
 			//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 					$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
-					$elemento .=	'<div class="col-md-4 col-xs-6">';
-					$elemento .=		'<img src="'.$enlaceLogoHerramienta.'"></img>';
+					$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
+					$elemento .=	'<div class="col-md-3 col-sm-4 col-xs-11 logo-de-herramienta">';
+					$elemento .=		'<img src="'.$enlaceLogoHerramienta.'" class="imagen-logo-herramienta"></img>';
 					$elemento .=	'</div>';
-					$elemento .= 	'<div class="col-md-8 col-xs-6">';
-					$elemento .=		'<p>'.$nombreHerramienta.'</p>';
+					$elemento .= 	'<div class="col-md-8 col-sm-7 col-xs-12 nombre-de-herramienta">';
+					$elemento .=		'<p class="texto-herramienta">Título de la Herramienta: '.$nombreHerramienta.'</p>';
 					$elemento .= 	'</div>';
 					$elemento .=  '</div>';
 					$elemento .=  '<div class="row datos-de-herramienta-lista">';
-					$elemento .=	'<div class="col-md-7">';
+					$elemento .=	'<div class="col-md-7 col-sm-12 col-xs-12 texto-descripcion-herramienta">';
 					$elemento .=		'<p>'.$descripcion.'</p>';
 					$elemento .= 		'<p><a href="'.$enlaceWeb.'" class="btn btn-default">Más información</a></p>';
 					$elemento .=	'</div>';
-					$elemento .=	'<div class="col-md-5">';
+					$elemento .=	'<div class="col-md-5 col-sm-12 col-xs-12">';
 					$elemento .=		'<img src="'.$imagenDeHerramienta.'"class="img-responsive"/>';
 					$elemento .=	'</div>';
 					$elemento .=  '</div>';

@@ -44,6 +44,11 @@
         <!--<link href="css/custom.css" rel="stylesheet">-->
         <link rel="stylesheet" href="css/estilo-slider-herramientas.css">
         <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
+
+        <!-- CSS para la lista de Herramientas -->
+        <link rel="stylesheet" href="css/fontsHerramientas.css">
+        <link rel="stylesheet" href="css/styleListaHerramientasCompleta.scss">
+        
         <script src="inc/jquery/jquery-1.11.1.min.js"></script>
         <script src="inc/bootstrap/js/bootstrap.min.js"></script>
         <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
