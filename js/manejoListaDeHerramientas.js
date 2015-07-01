@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$('.container lista-herramientas-totales').css({'display':'false'});
+	
 	$('.cabecera-de-herramienta-lista').click(function(event){
 		if(!($(this).hasClass('herramienta-expandida'))) {
 			console.log("Pulsado en " + $(this));
