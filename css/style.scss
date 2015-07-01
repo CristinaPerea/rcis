@@ -1055,6 +1055,12 @@ ul {
 		transition: all 0.6s ease-in-out;
 	}
 }
+.btn-default-encendido{
+	background-color: black !important;
+}
+.btn-default-apagado{
+	background-color: white !important;
+}
 .btn-blank {
 	border: 2px solid $white;
 	color: $white;
@@ -1333,4 +1339,17 @@ table {
 
 #cta-section-outline {
 	background: $color_desert_storm_approx $url_4 repeat;
+
+/* Clases para la lista de herramientas totales. Por defecto, va a venir como cerrado todo. 
+	Una vez clickeado el botón de las herramientas, mostraremos la lista con un evento onclick de jQuery.
+	Luego, al pulsar en cada logo, se desplegará todas las herramientas de dicho "institución" [cambiando]
+	el display de datos-lista-herramientas que corresponda.
+*/
+
+.datos-de-herramienta-lista {
+	display:none;
+}
+
+.lista-herramientas-totales {
+	display:none;
 }
