@@ -935,6 +935,10 @@ ul.imp-links {
   padding-left: 10%;
   padding-right: 10%; }
 
+.responsive-iframe-container-outline iframe {
+  padding-left: 5%;
+  padding-right: 5%; }
+
 iframe.responsive-iframe-container-publicaciones {
   position: relative;
   padding-bottom: 0px;
