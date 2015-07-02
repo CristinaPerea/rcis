@@ -67,11 +67,11 @@
 						$elemento .=  '</div>';
 				}	
 			}
+			$elemento .= '</div>';
 		
 		}
-		$elemento .=  '</div>';
 	}
-	$elemento .= '<br></div>';
+	$elemento .= '</div><br>';
 	echo $elemento;
 ?>
 
