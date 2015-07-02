@@ -71,7 +71,7 @@
 		}
 		$elemento .=  '</div>';
 	}
-	$elemento .= '<br></div>';
+	$elemento .= '<br>';
 	echo $elemento;
 ?>
 
