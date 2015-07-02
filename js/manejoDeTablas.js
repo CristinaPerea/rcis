@@ -46,6 +46,7 @@ $(".botonFlip").click(function(event){
 		});
 		$(this).text("Ver publicaciones de RCIS");
 		$('#qs_tableTotal').css({'overflow-y':'scroll'});
+		$('#qs_tableTotal').css({'height':'400px'});
 		$(".titulo-tablas-publicaciones").text("Publicaciones sobre Ciencia e Ingeniería de servicios");
 	}
 	else {
@@ -55,6 +56,7 @@ $(".botonFlip").click(function(event){
 			
 		});	
 		$('#qs_table').css({'overflow-y':'hidden'});
+		$('#qs_table').css({'height':'auto'});
 		$(".titulo-tablas-publicaciones").text("Publicaciones de RCIS");
 	}
 	event.preventDefault();
