@@ -11,10 +11,9 @@
   display: none; }
 
 div.cabecera-lista-herramientas {
-  height: 80px;
+  height: 75px;
   clear: both;
-  text-align: left;
-  border: 1px solid black; }
+  text-align: left; }
 
 .logo-institucion-en-cabecera-lista-herramientas {
   height: inherit; }
@@ -40,7 +39,7 @@ div.cabecera-lista-herramientas {
   margin-top: 17px; }
 
 .texto-herramienta {
-  padding-top: 2%;
+  padding-top: 1%;
   text-align: left; }
 
 .texto-descripcion-herramienta {
@@ -54,11 +53,13 @@ div.cabecera-lista-herramientas {
 	margin-top: 0px;
 	width: 70px;
 }
+*/
+@media (max-width: 992px) {
+  .texto-descripcion-herramienta {
+    padding-top: 0%; }
 
-@media (max-width:719px) {
-	.texto-descripcion-herramienta {
-		//padding-top:2%;
-	}
-}*/
+  .datos-lista-herramientas {
+    padding-left: 10%;
+    padding-right: 10%; } }
 
 /*# sourceMappingURL=styleListaHerramientasCompleta.css.map */
