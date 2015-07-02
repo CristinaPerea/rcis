@@ -1,9 +1,9 @@
 <?php
 	include_once('lectorCSV.php');
 
-	$miarray = array(); 
-	$miarray = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
-	//print_r($miarray);
+	$arrayHerramientas = array(); 
+	$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
+	//print_r($arrayHerramientas);
 
 	$nombreHerramienta;
 	$enlaceLogoGrupo;
@@ -13,7 +13,7 @@
 	$enlaceWeb;
 
 	/* Randomizar el slider */
-	$numeroTotalDeHerramientas = sizeof($miarray)-1;
+	$numeroTotalDeHerramientas = sizeof($arrayHerramientas)-1;
 	$arrayDeIndices = array();
 	for($i = 1; $i <= $numeroTotalDeHerramientas; $i++) {
 		$numeroAleatorio = rand(1, $numeroTotalDeHerramientas);
@@ -32,12 +32,12 @@
 		$numeroDeHerramientasAMostrarEnSlider = $numeroTotalDeHerramientas;
 	
 	for ($i = 0; $i < $numeroDeHerramientasAMostrarEnSlider; $i++) { 
-			$nombreHerramienta = $miarray[$arrayDeIndices[$i]][1];
-			$enlaceLogoGrupo = $miarray[$arrayDeIndices[$i]][2];
-			$enlaceLogoHerramienta = $miarray[$arrayDeIndices[$i]][3];
-			$imagenDeHerramienta = $miarray[$arrayDeIndices[$i]][4];
-			$descripcion = $miarray[$arrayDeIndices[$i]][5];
-			$enlaceWeb = $miarray[$arrayDeIndices[$i]][6];
+			$nombreHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][1];
+			$enlaceLogoGrupo = $arrayHerramientas[$arrayDeIndices[$i]][2];
+			$enlaceLogoHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][3];
+			$imagenDeHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][4];
+			$descripcion = $arrayHerramientas[$arrayDeIndices[$i]][5];
+			$enlaceWeb = $arrayHerramientas[$arrayDeIndices[$i]][6];
 			//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 
 					$elemento = '<div class="container item"><div class="slider-fila-1"><div class="slider-logo-1 col-md-6 col-xs-6"><img src="';

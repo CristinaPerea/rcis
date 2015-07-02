@@ -1,15 +1,10 @@
 <?php
 	include_once('lectorCSV.php');
 
-	$arrayHerramientas = array(); 
-	// CSV de Herramientas
-	$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
-	$arrayGrupos = array();
-	// CSV de Grupos
-	$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
-//	print_r($arrayHerramientas);
+	//$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
+	//print_r($arrayHerramientas);
 //	print_r($arrayGrupos);
-	
+
 	$gruposAñadidos = array();
 	$nombreHerramienta;
 	$enlaceLogoGrupo;
