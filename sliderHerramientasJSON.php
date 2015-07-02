@@ -12,13 +12,26 @@
 	$descripcion;
 	$enlaceWeb;
 
-	for ($i = 1; $i < sizeof($miarray) ; $i++) { 
-			$nombreHerramienta = $miarray[$i][1];
-			$enlaceLogoGrupo = $miarray[$i][2];
-			$enlaceLogoHerramienta = $miarray[$i][3];
-			$imagenDeHerramienta = $miarray[$i][4];
-			$descripcion = $miarray[$i][5];
-			$enlaceWeb = $miarray[$i][6];
+	/* Randomizar el slider */
+	$numeroTotalDeHerramientas = sizeof($miarray)-1;
+	$arrayDeIndices = array();
+	for($i = 1; $i <= $numeroTotalDeHerramientas; $i++) {
+		$numeroAleatorio = rand(1, $numeroTotalDeHerramientas);
+		while(in_array($numeroAleatorio, $arrayDeIndices))
+			$numeroAleatorio = rand(1, $numeroTotalDeHerramientas);
+		array_push($arrayDeIndices, $numeroAleatorio);
+	}
+	//print_r($arrayDeIncides);
+	//
+	$numeroDeHerramientasAMostrarEnSlider = $numeroTotalDeHerramientas;
+	//$numeroDeHerramientasAMostrarEnSlider = 2;
+	for ($i = 0; $i < $numeroDeHerramientasAMostrarEnSlider; $i++) { 
+			$nombreHerramienta = $miarray[$arrayDeIndices[$i]][1];
+			$enlaceLogoGrupo = $miarray[$arrayDeIndices[$i]][2];
+			$enlaceLogoHerramienta = $miarray[$arrayDeIndices[$i]][3];
+			$imagenDeHerramienta = $miarray[$arrayDeIndices[$i]][4];
+			$descripcion = $miarray[$arrayDeIndices[$i]][5];
+			$enlaceWeb = $miarray[$arrayDeIndices[$i]][6];
 			//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 
 					$elemento = '<div class="container item"><div class="slider-fila-1"><div class="slider-logo-1 col-md-6 col-xs-6"><img src="';
