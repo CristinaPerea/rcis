@@ -38,8 +38,8 @@
 			$logoGrandeInstitucion = $arrayGrupos[$i][5];
 			$siglasUniversidad = $arrayGrupos[$i][6];
 			$nombreUniversidad = $arrayGrupos[$i][7];
-			$enlaceUniversidad = $arrayGrupos[$i][8];
-			$logoUniversidad= $arrayGrupos[$i][9];
+			$enlaceUniversidad = $arrayGrupos[$i][9];
+			$logoUniversidad= $arrayGrupos[$i][8];
 		
 		if($i+1 != sizeof($arrayGrupos)){
 
@@ -51,17 +51,17 @@
 			$logoGrandeInstitucion2 = $arrayGrupos[$i+1][5];
 			$siglasUniversidad2 = $arrayGrupos[$i+1][6];
 			$nombreUniversidad2 = $arrayGrupos[$i+1][7];
-			$enlaceUniversidad2 = $arrayGrupos[$i+1][8];
-			$logoUniversidad2= $arrayGrupos[$i+1][9];
+			$enlaceUniversidad2 = $arrayGrupos[$i+1][9];
+			$logoUniversidad2= $arrayGrupos[$i+1][8];
 
 			//echo $siglasInstitucion.$nombreInstitucion.$nombreCoordinador.$enlaceInstitucion.$logoPequeñoInstitucion.$logoGrandeInstitucion.$siglasUniversidad.$nombreUniversidad.$enlaceUniversidad.$logoUniversidad;
-					$elemento = 		'<d	iv class="row vcenter text-center">';
+					$elemento = 		'<div class="row vcenter text-center">';
 		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
 		            $elemento .=                 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion.'</h5><h6>'.$nombreCoordinador.'</h6></div>';
-		            $elemento .=                 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion.'" alt=""></div>';
+		            $elemento .=                 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoUniversidad.'" alt=""></div>';
 		            $elemento .=             '</div>';
 		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
-                    $elemento .=				 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion2.'" alt=""></div>';
+                    $elemento .=				 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoUniversidad2.'" alt=""></div>';
                     $elemento .=				 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion2.'</h5><h6>'.$nombreCoordinador2.'</h6></div>';
                     $elemento .= 			 '</div>';
 					$elemento .= 		'</div>';
