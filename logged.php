@@ -86,9 +86,17 @@
                             <div class="devider"></div>
                             <div class="extra-space-l"></div>
                             <div class="container" width:800px height:500>
-                                <?php 
-                                    echo file_get_contents("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSm5GcFpsN0owZjQ");
-                                ?> 
+                                <div class="responsive-iframe-container-outline">
+                                    <?php 
+                                        $fichero = 'temp.html'; 
+                                        $ficheroOrigen = file_get_contents("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSm5GcFpsN0owZjQ");
+                                        file_put_contents($fichero, $ficheroOrigen); 
+                                        echo '<iframe id="iframe-outline" src="'.$fichero.'"></iframe>';
+                                    ?>
+                                </div>
+                               <!-- <?php 
+                                   // echo file_get_contents("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSm5GcFpsN0owZjQ");
+                                ?> -->
                             </div>
                         </div>
                     </div>
@@ -162,5 +170,7 @@
         <!-- Theme JS -->
         <script src="js/theme.js"></script>
         <script src="js/cambiaVistaRecursosDrive.js"></script>
+        <!--Elimina fondo de Outline-->
+        <script src="js/manejoOutline.js"></script>
     </body> 
 </html>
