@@ -55,14 +55,14 @@
 			$logoUniversidad2= $arrayGrupos[$i+1][9];
 
 			//echo $siglasInstitucion.$nombreInstitucion.$nombreCoordinador.$enlaceInstitucion.$logoPequeñoInstitucion.$logoGrandeInstitucion.$siglasUniversidad.$nombreUniversidad.$enlaceUniversidad.$logoUniversidad;
-					$elemento = 		'<div class="row vcenter text-center">';
-		            $elemento .=			'<div class="col-md-6 col-xs-12">';
-		            $elemento .=                 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreCoordinador.'</h5><h6>'.$nombreCoordinador.'</h6></div>';
+					$elemento = 		'<d	iv class="row vcenter text-center">';
+		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
+		            $elemento .=                 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion.'</h5><h6>'.$nombreCoordinador.'</h6></div>';
 		            $elemento .=                 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion.'" alt=""></div>';
 		            $elemento .=             '</div>';
 		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
                     $elemento .=				 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion2.'" alt=""></div>';
-                    $elemento .=				 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreCoordinador2.'</h5><h6>'.$nombreCoordinador2.'</h6></div>';
+                    $elemento .=				 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion2.'</h5><h6>'.$nombreCoordinador2.'</h6></div>';
                     $elemento .= 			 '</div>';
 					$elemento .= 		'</div>';
 		}
