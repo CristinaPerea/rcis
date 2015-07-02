@@ -27,11 +27,11 @@
 			$nombreDelGrupo = $arrayGrupos[$i][1];
 			$siglasDelGrupo = $arrayGrupos[$i][0];
 			$elemento .=  '<div id="cabecera'.$grupo.'" class="cabecera-lista-herramientas row">';
-			$elemento .=	'<div class="col-md-2 col-sm-2 col-xs-3 logo-institucion-en-cabecera-lista-herramientas">';
+			$elemento .=	'<div class="col-md-1 col-sm-2 col-xs-3 logo-institucion-en-cabecera-lista-herramientas">';
 			$elemento .=		'<img src="'.$logoGrupo.'"/>';
 			$elemento .=	'</div>';
-			$elemento .=    '<div class="col-md-10 col-sm-10 col-xs-9 nombre-institucion-en-cabecera-lista-herramientas">';
-			$elemento .=		'<p>'.$nombreDelGrupo.' (<a href="#">'.$siglasDelGrupo.'</a>)</p>';
+			$elemento .=    '<div class="col-md-11 col-sm-10 col-xs-9 nombre-institucion-en-cabecera-lista-herramientas">';
+			$elemento .=		'<h5>'.$nombreDelGrupo.' (<a href="#">'.$siglasDelGrupo.'</a>)</h5>';
 			$elemento .= 	'</div>';
 			$elemento .=  '</div>';
 			$elemento .=  '<div id="herramientas'.$grupo.'" class="datos-lista-herramientas">';
@@ -48,10 +48,10 @@
 				//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 						$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
 						$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
-						$elemento .=	'<div class="col-md-3 col-sm-2 col-sm-2 col-xs-12 logo-de-herramienta">';
+						$elemento .=	'<div class="col-md-1 col-sm-2 col-sm-2 col-xs-12 logo-de-herramienta">';
 						$elemento .=		'<img src="'.$enlaceLogoHerramienta.'" class="imagen-logo-herramienta"></img>';
 						$elemento .=	'</div>';
-						$elemento .= 	'<div class="col-md-7 col-sm-7 col-sm-offset-1 col-xs-12 nombre-de-herramienta">';
+						$elemento .= 	'<div class="col-md-10 col-sm-7 col-sm-offset-1 col-xs-12 nombre-de-herramienta">';
 						$elemento .=		'<p class="texto-herramienta">Título de la Herramienta: '.$nombreHerramienta.'</p>';
 						$elemento .= 	'</div>';
 						$elemento .=  '</div>';

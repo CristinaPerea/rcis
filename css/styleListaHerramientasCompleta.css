@@ -18,25 +18,30 @@ div.cabecera-lista-herramientas {
 .logo-institucion-en-cabecera-lista-herramientas {
   height: inherit; }
 
-.nombre-institucion-en-cabecera-lista-herramientas {
+.nombre-institucion-en-cabecera-lista-herramientas > h5 {
   height: inherit; }
 
-.nombre-institucion-en-cabecera-lista-herramientas > p {
+.nombre-institucion-en-cabecera-lista-herramientas > h5 {
   position: relative;
-  padding-top: 25px;
-  padding-bottom: 40%; }
+  padding-top: 25px; }
 
 .cabecera-de-herramienta-lista {
-  height: 50px; }
+  height: 50px;
+  padding-left: 5%; }
 
-.logo-de-herramienta, .nombre-de-herramienta, .imagen-logo-herramienta {
-  height: inherit; }
+.logo-de-herramienta, .imagen-logo-herramienta {
+  height: inherit;
+  height: 40px;
+  width: 40px; }
 
-.logo-de-herramienta, .imagen-logo-de-herramienta, .text-herramienta {
-  width: 20%; }
+.nombre-de-herramienta {
+  height: inherit;
+  margin-left: 1%; }
 
 .icono-despliegue {
-  margin-top: 17px; }
+  margin-top: 15px;
+  padding-right: 0%;
+  width: inherit; }
 
 .texto-herramienta {
   padding-top: 1%;
@@ -57,6 +62,11 @@ div.cabecera-lista-herramientas {
 @media (max-width: 992px) {
   .texto-descripcion-herramienta {
     padding-top: 0%; }
+
+  .nombre-de-herramienta {
+    height: inherit;
+    margin-left: 2%;
+    padding-top: 1%; }
 
   .datos-lista-herramientas {
     padding-left: 10%;

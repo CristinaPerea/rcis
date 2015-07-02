@@ -29,7 +29,8 @@
 	// Si el número de herramientas a mostrar es mayor que las posibles a mostrar, se pone por defecto
 	// a numeroTotalDeHerramientas (las mostraría todas)
 	if($numeroDeHerramientasAMostrarEnSlider > $numeroTotalDeHerramientas)
-		$numeroDeHerramientasAMostrarEnSlider = $numeroTotalDeHerramientas
+		$numeroDeHerramientasAMostrarEnSlider = $numeroTotalDeHerramientas;
+	
 	for ($i = 0; $i < $numeroDeHerramientasAMostrarEnSlider; $i++) { 
 			$nombreHerramienta = $miarray[$arrayDeIndices[$i]][1];
 			$enlaceLogoGrupo = $miarray[$arrayDeIndices[$i]][2];
