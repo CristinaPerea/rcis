@@ -47,7 +47,7 @@
 
         <!-- CSS para la lista de Herramientas -->
         <link rel="stylesheet" href="css/fontsHerramientas.css">
-        <link rel="stylesheet" href="css/styleListaHerramientasCompleta.scss">
+        <link rel="stylesheet" href="css/styleListaHerramientasCompleta.css">
         
         <script src="inc/jquery/jquery-1.11.1.min.js"></script>
         <script src="inc/bootstrap/js/bootstrap.min.js"></script>
