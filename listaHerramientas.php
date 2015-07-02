@@ -35,38 +35,39 @@
 			$elemento .= 	'</div>';
 			$elemento .=  '</div>';
 			$elemento .=  '<div id="herramientas'.$grupo.'" class="datos-lista-herramientas">';
-		}
-		for($j=1; $j < sizeof($arrayHerramientas); $j++) {
-			$grupoDeLaHerramienta = $arrayHerramientas[$j][8];
-			if(strcmp($grupo,$grupoDeLaHerramienta)==0){
-				$nombreHerramienta = $arrayHerramientas[$i][1];
-				$enlaceLogoGrupo = $arrayHerramientas[$i][2];
-				// Logo pequeño.
-				$enlaceLogoHerramienta = $arrayHerramientas[$i][3];
-				$imagenDeHerramienta = $arrayHerramientas[$i][4];
-				$descripcion = $arrayHerramientas[$i][5];
-				$enlaceWeb = $arrayHerramientas[$i][6];
-			//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
-					$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
-					$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
-					$elemento .=	'<div class="col-md-3 col-sm-2 col-sm-2 col-xs-12 logo-de-herramienta">';
-					$elemento .=		'<img src="'.$enlaceLogoHerramienta.'" class="imagen-logo-herramienta"></img>';
-					$elemento .=	'</div>';
-					$elemento .= 	'<div class="col-md-7 col-sm-7 col-sm-offset-1 col-xs-12 nombre-de-herramienta">';
-					$elemento .=		'<p class="texto-herramienta">Título de la Herramienta: '.$nombreHerramienta.'</p>';
-					$elemento .= 	'</div>';
-					$elemento .=  '</div>';
-					$elemento .=  '<div class="row datos-de-herramienta-lista">';
-					$elemento .=	'<div class="col-md-5 col-sm-12 col-xs-12 ">';
-					$elemento .=		'<img src="'.$imagenDeHerramienta.'"class="img-responsive"/>';
-					$elemento .=	'</div>';
-					$elemento .=	'<div class="col-md-7 col-sm-12 col-xs-12 texto-descripcion-herramienta">';
-					$elemento .=		'<p>'.$descripcion.'</p>';
-					$elemento .= 		'<br>';
-					$elemento .= 		'<p><a href="'.$enlaceWeb.'" class="btn btn-default">Más información</a></p>';
-					$elemento .=	'</div>';
-					$elemento .=  '</div>';
+			for($j=1; $j < sizeof($arrayHerramientas); $j++) {
+				$grupoDeLaHerramienta = $arrayHerramientas[$j][8];
+				if(strcmp($grupo,$grupoDeLaHerramienta)==0){
+					$nombreHerramienta = $arrayHerramientas[$i][1];
+					$enlaceLogoGrupo = $arrayHerramientas[$i][2];
+					// Logo pequeño.
+					$enlaceLogoHerramienta = $arrayHerramientas[$i][3];
+					$imagenDeHerramienta = $arrayHerramientas[$i][4];
+					$descripcion = $arrayHerramientas[$i][5];
+					$enlaceWeb = $arrayHerramientas[$i][6];
+				//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
+						$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
+						$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
+						$elemento .=	'<div class="col-md-3 col-sm-2 col-sm-2 col-xs-12 logo-de-herramienta">';
+						$elemento .=		'<img src="'.$enlaceLogoHerramienta.'" class="imagen-logo-herramienta"></img>';
+						$elemento .=	'</div>';
+						$elemento .= 	'<div class="col-md-7 col-sm-7 col-sm-offset-1 col-xs-12 nombre-de-herramienta">';
+						$elemento .=		'<p class="texto-herramienta">Título de la Herramienta: '.$nombreHerramienta.'</p>';
+						$elemento .= 	'</div>';
+						$elemento .=  '</div>';
+						$elemento .=  '<div class="row datos-de-herramienta-lista">';
+						$elemento .=	'<div class="col-md-5 col-sm-12 col-xs-12 ">';
+						$elemento .=		'<img src="'.$imagenDeHerramienta.'"class="img-responsive"/>';
+						$elemento .=	'</div>';
+						$elemento .=	'<div class="col-md-7 col-sm-12 col-xs-12 texto-descripcion-herramienta">';
+						$elemento .=		'<p>'.$descripcion.'</p>';
+						$elemento .= 		'<br>';
+						$elemento .= 		'<p><a href="'.$enlaceWeb.'" class="btn btn-default">Más información</a></p>';
+						$elemento .=	'</div>';
+						$elemento .=  '</div>';
+				}	
 			}
+		
 		}
 		$elemento .=  '</div>';
 	}
