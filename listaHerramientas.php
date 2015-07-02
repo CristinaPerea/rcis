@@ -24,11 +24,15 @@
 		if(!in_array($grupo, $gruposAñadidos)){
 			array_push($gruposAñadidos, $grupo);
 			$logoGrupo = $arrayGrupos[$i][4];
+			// Si no hay logo de grupo, se pone el de la universidad
+			if($logoGrupo == "") {
+				$logoGrupo = $arrayGrupos[$i][8];
+			}
 			$nombreDelGrupo = $arrayGrupos[$i][1];
 			$siglasDelGrupo = $arrayGrupos[$i][0];
 			$elemento .=  '<div id="cabecera'.$grupo.'" class="cabecera-lista-herramientas row">';
 			$elemento .=	'<div class="col-md-1 col-sm-2 col-xs-3 logo-institucion-en-cabecera-lista-herramientas">';
-			$elemento .=		'<img src="'.$logoGrupo.'"/>';
+			$elemento .=		'<img class="clase-de-imagen-logo-grupo" src="'.$logoGrupo.'"/>';
 			$elemento .=	'</div>';
 			$elemento .=    '<div class="col-md-11 col-sm-10 col-xs-9 nombre-institucion-en-cabecera-lista-herramientas">';
 			$elemento .=		'<h5>'.$nombreDelGrupo.' (<a href="#">'.$siglasDelGrupo.'</a>)</h5>';
