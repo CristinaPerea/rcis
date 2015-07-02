@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   color: #676d75; }
   a:hover {
@@ -234,7 +235,7 @@ a {
   color: #676d75;
   border: 2px solid #676d75; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   .navbar-collapse {
     background-color: #676d75;
     border-color: #fff !important; }
@@ -299,7 +300,8 @@ body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand 
 div#row.selectores-drive {
   float: right; }
 
-@media (max-width: 768px) {
+/* Distancia entre enlaces de men├║s en modo m├│vil */
+@media (max-width: 992px) {
   ul.navbar-nav > li > a {
     padding: 1px !important;
     font-size: 12px !important; } }

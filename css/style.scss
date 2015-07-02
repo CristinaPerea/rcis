@@ -1319,11 +1319,13 @@ th {
 	background-color: $color_por_defecto;
 }
 
-@media(max-width: 768px) {
+/* Tamaño de los campos del login */
+@media(max-width: 992px) {
 	.form-control {
 		height: 25px !important;
 	}
 }
+
 table {
 	&.top-right-border{
 		margin-left: 15%;

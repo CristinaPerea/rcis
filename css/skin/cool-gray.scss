@@ -353,7 +353,7 @@ a {
 	color: $color_nevada_approx;
 	border: 2px solid $color_nevada_approx;
 }
-@media only screen and(max-width : 767px) {
+@media only screen and(max-width : 992px) {
 	.navbar-collapse {
 		background-color: $color_nevada_approx;
 		border-color: $white !important;
@@ -440,7 +440,8 @@ div#row.selectores-drive{
 	float: right;
 }
 
-@media(max-width: 768px) {
+/* Distancia entre enlaces de menús en modo móvil */
+@media(max-width: 992px) {
 	ul.navbar-nav {
 		&>li {
 			&>a {

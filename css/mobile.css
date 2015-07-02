@@ -24,7 +24,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	.dropdown-hover:hover > .dropdown-menu {
+        display: block;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -63,7 +65,7 @@
 	}
 
 }
-
+/*
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
@@ -142,7 +144,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width : 992px) {
 
 	/* Navbar brand */
 	.navbar-brand, .navbar-brand:focus {
