@@ -3,6 +3,7 @@ table {
   width: 100%; 
   border-collapse: collapse; 
 }
+
 /* Zebra striping */
 tr:nth-of-type(odd) { 
   background: #eee; 
@@ -28,12 +29,12 @@ tr.abstract td, tr.review td, tr.bibtex td { background-color: #EFEFEF; text-ali
 
 tr.noshow { display: none;}
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 760px)  {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+		
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */

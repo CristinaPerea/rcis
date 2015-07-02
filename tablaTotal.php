@@ -1,8 +1,11 @@
 <style type="text/css">
 table { 
   width: 100%; 
-  border-collapse: collapse; 
+  border-collapse: collapse;
+  display: block;
+  height: 400px;
 }
+
 /* Zebra striping */
 tr:nth-of-type(odd) { 
   background: #eee; 
@@ -10,13 +13,20 @@ tr:nth-of-type(odd) {
 th { 
   /*background: #	; */
   color: white; 
-  font-weight: bold; 
+  font-weight: bold;
 }
 td, th { 
   padding: 6px; 
   border: 1px solid #ccc; 
   text-align: left; 
 }
+
+/*tr>th {
+	 padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}*/
+
 tr.bibtex pre { width: 100%; overflow: auto; white-space: pre-wrap;}
 p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 tr.abstract td, tr.review td, tr.bibtex td { background-color: #EFEFEF; text-align: justify; border-bottom: 2px #2E2E2E solid; }
@@ -28,12 +38,12 @@ tr.abstract td, tr.review td, tr.bibtex td { background-color: #EFEFEF; text-ali
 
 tr.noshow { display: none;}
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 760px) {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
@@ -63,7 +73,12 @@ only screen and (max-width: 760px),
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
-	
+	tbody.miTabla{
+		display: block;
+		overflow-y: scroll;
+		height: 200px;
+		width: 100%;
+	}
 	/*
 	Label the data
 	*/
@@ -78,7 +93,7 @@ only screen and (max-width: 760px),
 	<?php 
 		include_once("lectorCSV.php");
 		$miarray = loadDataFromCSVEncoding("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNSGlhdGlYbGpYZTg&export?format=download");
-		$mensaje = '<table id="qs_table" border="1" class=""><thead><tr><th width="20%">Autor</th><th width="30%">Título</th><th width="5%">Año</th><th width="30%">Publicación/Procedencia</th><th width="5%">PDF</th></tr></thead><tbody>';
+		$mensaje = '<table id="qs_tableTotal" border="1" class=""><thead id="cabecera-publicaciones"><tr><th width="30%">Autor</th><th width="30%">Título</th><th width="5%">Año</th><th width="30%">Publicación/Procedencia</th><th width="5%">PDF</th></tr></thead><tbody class="">';
 		for($i=1; $i<sizeof($miarray); $i++){
 			$id = $miarray[$i][2];
 
