@@ -950,9 +950,6 @@ iframe.responsive-iframe-container-slider {
     width: 720px;
     height: 435px;
     position: relative; } }
-.first-section {
-  padding-top: 2%; }
-
 th {
   background-color: #363940; }
 
@@ -980,5 +977,25 @@ table.top-right-border {
 
 .lista-herramientas-totales {
   display: none; }
+
+/* Cabecera */
+#text-carousel-intro-section .caption h1.titulo-cabecera-principal {
+  font-size: 25px; }
+
+#text-carousel-intro-section .caption h3.subtexto-cabecera-principal {
+  font-size: 20px; }
+
+.first-section {
+  padding-top: 77px; }
+
+@media (max-width: 992px) {
+  #text-carousel-intro-section .caption h1.titulo-cabecera-principal {
+    font-size: 18px; }
+
+  #text-carousel-intro-section .caption h3.subtexto-cabecera-principal {
+    font-size: 13px; }
+
+  .first-section {
+    padding-top: 73px; } }
 
 /*# sourceMappingURL=style.css.map */
