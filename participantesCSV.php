@@ -56,13 +56,13 @@
 
 			//echo $siglasInstitucion.$nombreInstitucion.$nombreCoordinador.$enlaceInstitucion.$logoPequeñoInstitucion.$logoGrandeInstitucion.$siglasUniversidad.$nombreUniversidad.$enlaceUniversidad.$logoUniversidad;
 					$elemento = 		'<div class="row vcenter text-center">';
-		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
-		            $elemento .=                 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion.'</h5><h6>'.$nombreCoordinador.'</h6></div>';
-		            $elemento .=                 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoUniversidad.'" alt=""></div>';
+		            $elemento .=			 '<div class="col-md-6 col-xs-12 estilo-div-participantes">';
+		            $elemento .=                 '<div class="col-md-10 col-sm-10 col-xs-10 estilo-div-participantes-responsive-right"><h5 class="h5-participantes-right">'.$nombreInstitucion.'</h5><h6 class="h6-participantes-right">'.$nombreCoordinador.'</h6></div>';
+		            $elemento .=                 '<div class="col-md-2 col-sm-2 col-xs-2"><a href="'.$enlaceInstitucion.'" target="_blank"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion.'" alt=""></a></div>';
 		            $elemento .=             '</div>';
-		            $elemento .=			 '<div class="col-md-6 col-xs-12">';
-                    $elemento .=				 '<div class="col-md-2 col-sm-2 col-xs-2"><img class="imagenes-logo" src="'.$logoUniversidad2.'" alt=""></div>';
-                    $elemento .=				 '<div class="col-md-10 col-sm-10 col-xs-10"><h5>'.$nombreInstitucion2.'</h5><h6>'.$nombreCoordinador2.'</h6></div>';
+		            $elemento .=			 '<div class="col-md-6 col-xs-12 estilo-div-participantes">';
+                    $elemento .=				 '<div class="col-md-2 col-sm-2 col-xs-2"><a href="'.$enlaceInstitucion2.'" target="_blank"><img class="imagenes-logo" src="'.$logoPequeñoInstitucion2.'" alt=""></a></div>';
+                    $elemento .=				 '<div class="col-md-10 col-sm-10 col-xs-10 estilo-div-participantes-responsive"><h5 class="h5-participantes-left">'.$nombreInstitucion2.'</h5><h6 class="h6-participantes-left">'.$nombreCoordinador2.'</h6></div>';
                     $elemento .= 			 '</div>';
 					$elemento .= 		'</div>';
 		}

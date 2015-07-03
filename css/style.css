@@ -1,8 +1,7 @@
 @charset "UTF-8";
 h1, h2, h3, h4, h5, h6 {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px; }
+  font-weight: 700; }
 
 .rotate-box-1, .rotate-box-2 {
   display: inline-block;
@@ -906,8 +905,8 @@ ul.imp-links {
   margin-bottom: 30px; }
 
 .imagenes-logo {
-  height: 40px;
-  width: 40px;
+  height: 55px;
+  width: 55px;
   font-family: Roboto; }
 
 /* C├│digo para hacer un iframe responsive*/
@@ -1014,5 +1013,47 @@ table.top-right-border {
 
   .first-section {
     padding-top: 73px; } }
+h5.h5-participantes-right {
+  text-align: right;
+  padding-top: 10px; }
+h5.h5-participantes-left {
+  text-align: left;
+  padding-top: 10px; }
+
+h6.h6-participantes-right {
+  text-align: right; }
+h6.h6-participantes-left {
+  text-align: left; }
+
+div.estilo-div-participantes {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+@media (max-width: 540px) {
+  h5 {
+    font-size: 13px; }
+
+  h5.h5-participantes-right {
+    text-align: right;
+    padding-top: 10px; }
+  h5.h5-participantes-left {
+    text-align: left;
+    padding-top: 10px; }
+
+  h6 {
+    font-size: 10px; }
+
+  h6.h6-participantes-right {
+    text-align: right; }
+  h6.h6-participantes-left {
+    text-align: left; }
+
+  div.estilo-div-participantes {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  div.estilo-div-participantes-responsive {
+    padding-left: 35px; }
+  div.estilo-div-participantes-responsive-right {
+    padding-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
