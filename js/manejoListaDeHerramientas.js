@@ -24,4 +24,8 @@ $(document).ready(function() {
 			$(icono).toggleClass('icon-squared-plus');
 		}
 	});
+
+	$('.cabecera-de-herramienta-lista').mouseover(function (){
+		$('.cabecera-de-herramienta-lista').css({'cursor':'pointer'});
+	})
 });
