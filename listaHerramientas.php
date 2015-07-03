@@ -1,9 +1,12 @@
 <?php
 	include_once('lectorCSV.php');
 
-	//$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
+	$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
 	//print_r($arrayHerramientas);
-//	print_r($arrayGrupos);
+	//print_r($arrayGrupos);
+	$arrayGrupos = array();
+	// CSV de Grupos
+	$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
 
 	$gruposAñadidos = array();
 	$nombreHerramienta;
@@ -28,6 +31,7 @@
 			// Si no hay nombre del grupo de investigación, ponemos el nombre de la universidad
 			if($nombreDelGrupo == "")
 				$nombreDelGrupo = $arrayGrupos[$i][7];
+
 			$siglasDelGrupo = $arrayGrupos[$i][0];
 			$elemento .=  '<div id="cabecera'.$grupo.'" class="cabecera-lista-herramientas row">';
 			$elemento .=	'<div class="col-md-1 col-sm-2 col-xs-3 logo-institucion-en-cabecera-lista-herramientas">';
@@ -41,13 +45,13 @@
 			for($j=1; $j < sizeof($arrayHerramientas); $j++) {
 				$grupoDeLaHerramienta = $arrayHerramientas[$j][8];
 				if(strcmp($grupo,$grupoDeLaHerramienta)==0){
-					$nombreHerramienta = $arrayHerramientas[$i][1];
-					$enlaceLogoGrupo = $arrayHerramientas[$i][2];
+					$nombreHerramienta = $arrayHerramientas[$j][1];
+					$enlaceLogoGrupo = $arrayHerramientas[$j][2];
 					// Logo pequeño.
-					$enlaceLogoHerramienta = $arrayHerramientas[$i][3];
-					$imagenDeHerramienta = $arrayHerramientas[$i][4];
-					$descripcion = $arrayHerramientas[$i][5];
-					$enlaceWeb = $arrayHerramientas[$i][6];
+					$enlaceLogoHerramienta = $arrayHerramientas[$j][3];
+					$imagenDeHerramienta = $arrayHerramientas[$j][4];
+					$descripcion = $arrayHerramientas[$j][5];
+					$enlaceWeb = $arrayHerramientas[$j][6];
 				//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 						$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
 						$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
