@@ -38,8 +38,12 @@
 			$logoGrandeInstitucion = $arrayGrupos[$i][5];
 			$siglasUniversidad = $arrayGrupos[$i][6];
 			$nombreUniversidad = $arrayGrupos[$i][7];
+			if($nombreInstitucion == "")
+				$nombreInstitucion = $nombreUniversidad;
 			$enlaceUniversidad = $arrayGrupos[$i][9];
 			$logoUniversidad= $arrayGrupos[$i][8];
+			if($logoPequeñoInstitucion == "")
+				$logoPequeñoInstitucion = $logoUniversidad;
 		
 		if($i+1 != sizeof($arrayGrupos)){
 
@@ -51,8 +55,12 @@
 			$logoGrandeInstitucion2 = $arrayGrupos[$i+1][5];
 			$siglasUniversidad2 = $arrayGrupos[$i+1][6];
 			$nombreUniversidad2 = $arrayGrupos[$i+1][7];
+			if($nombreInstitucion2 == "")
+				$nombreInstitucion2 = $nombreUniversidad2;
 			$enlaceUniversidad2 = $arrayGrupos[$i+1][9];
 			$logoUniversidad2= $arrayGrupos[$i+1][8];
+			if($logoPequeñoInstitucion2 == "")
+				$logoPequeñoInstitucion2 = $logoUniversidad2;
 
 			//echo $siglasInstitucion.$nombreInstitucion.$nombreCoordinador.$enlaceInstitucion.$logoPequeñoInstitucion.$logoGrandeInstitucion.$siglasUniversidad.$nombreUniversidad.$enlaceUniversidad.$logoUniversidad;
 					$elemento = 		'<div class="row vcenter text-center">';
