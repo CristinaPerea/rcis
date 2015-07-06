@@ -37,11 +37,11 @@
 	for ($i = 0; $i < $numeroDeHerramientasAMostrarEnSlider; $i++) { 
 		$nombreHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][1];
 		//$enlaceLogoGrupo = $arrayHerramientas[$arrayDeIndices[$i]][2];
-		$enlaceLogoHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][10];
-		$imagenDeHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][4];
-		$descripcion = $arrayHerramientas[$arrayDeIndices[$i]][5];
-		$enlaceWeb = $arrayHerramientas[$arrayDeIndices[$i]][6];
-		$siglasGrupo = $arrayHerramientas[$arrayDeIndices[$i]][8];
+		$enlaceLogoHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][9];
+		$imagenDeHerramienta = $arrayHerramientas[$arrayDeIndices[$i]][3];
+		$descripcion = $arrayHerramientas[$arrayDeIndices[$i]][4];
+		$enlaceWeb = $arrayHerramientas[$arrayDeIndices[$i]][5];
+		$siglasGrupo = $arrayHerramientas[$arrayDeIndices[$i]][7];
 
 		for($iteGrupo = 1; $iteGrupo < sizeof($arrayGrupos); $iteGrupo++){
 			if($siglasGrupo == $arrayGrupos[$iteGrupo][0]){
