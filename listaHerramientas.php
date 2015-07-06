@@ -43,15 +43,15 @@
 			$elemento .=  '</div>';
 			$elemento .=  '<div id="herramientas'.$grupo.'" class="datos-lista-herramientas">';
 			for($j=1; $j < sizeof($arrayHerramientas); $j++) {
-				$grupoDeLaHerramienta = $arrayHerramientas[$j][8];
+				$grupoDeLaHerramienta = $arrayHerramientas[$j][7];
 				if(strcmp($grupo,$grupoDeLaHerramienta)==0){
 					$nombreHerramienta = $arrayHerramientas[$j][1];
-					$enlaceLogoGrupo = $arrayHerramientas[$j][2];
+					$enlaceLogoGrupo = "";
 					// Logo pequeño.
-					$enlaceLogoHerramienta = $arrayHerramientas[$j][3];
-					$imagenDeHerramienta = $arrayHerramientas[$j][4];
-					$descripcion = $arrayHerramientas[$j][5];
-					$enlaceWeb = $arrayHerramientas[$j][6];
+					$enlaceLogoHerramienta = $arrayHerramientas[$j][2];
+					$imagenDeHerramienta = $arrayHerramientas[$j][3];
+					$descripcion = $arrayHerramientas[$j][4];
+					$enlaceWeb = $arrayHerramientas[$j][5];
 				//echo $nombreHerramienta.$enlaceLogoHerramienta.$enlaceLogoGrupo.$imagenDeHerramienta.$descripcion.$enlaceWeb;
 						$elemento .=  '<div class="row cabecera-de-herramienta-lista">';
 						$elemento .=    '<div class="col-md-1 col-sm-1 col-xs-1 icono-despliegue"><span class="icon-squared-plus"></span></div>';
