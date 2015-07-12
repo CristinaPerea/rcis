@@ -9,7 +9,7 @@
 	$nombreHerramienta;
 	$enlaceLogoGrupo = "";
 	$enlaceLogoHerramienta;
-	$imagenDeHerramienta;
+	$imagenDeHerramienta="";
 	$descripcion;
 	$enlaceWeb;
 	$siglasGrupo;
@@ -58,16 +58,30 @@
 		$elemento .= '" class="img-responsive logos-de-slider"/></div><div class="slider-logo-2 col-md-6 col-xs-6 "><img src="';
 		$elemento .= $enlaceLogoGrupo;
 		$elemento .= '" class="img-responsive logos-de-slider logo-derecha-slider"/></div></div>';
-		$elemento .= '<div class="slider-fila-2"><div class="col-md-6"><img src="';
-		$elemento .= $imagenDeHerramienta;
-		$elemento .= '"class="img-responsive img-responsive-capturas"/></div><div class="col-md-6"><p 	class="texto-slider-herramientas">';
-		$temp = $nombreHerramienta.'</p>';
-		$elemento .= $temp;
-		$elemento .= '<p class="texto-slider-herramientas-descripcion">';
-		$elemento .= $descripcion.'</p>'	;
-		$elemento .= '<br><br><br><a href="';
-		$elemento .= $enlaceWeb;
-		$elemento .= '" class="btn btn-default">Más información</a></div></div></div>';
+		if($imagenDeHerramienta != ""){
+			$elemento .= '<div class="slider-fila-2"><div class="col-md-6"><img src="';
+			$elemento .= $imagenDeHerramienta;
+			$elemento .= '"class="img-responsive img-responsive-capturas"/></div><div class="col-md-6"><p 	class="texto-slider-herramientas">';
+			$temp = $nombreHerramienta.'</p>';
+			$elemento .= $temp;
+			$elemento .= '<p class="texto-slider-herramientas-descripcion">';
+			$elemento .= $descripcion.'</p>'	;
+			$elemento .= '<br><br><br><a href="';
+			$elemento .= $enlaceWeb;
+			$elemento .= '" class="btn btn-default">Más información</a></div></div></div>';
+		}else{
+			$elemento .= '<div class="slider-fila-2"><div class=""><img src="';
+			$elemento .= $imagenDeHerramienta;
+			$elemento .= '"class="img-responsive img-responsive-capturas"/></div><div class="col-md-12"><p 	class="texto-slider-herramientas">';
+			$temp = $nombreHerramienta.'</p>';
+			$elemento .= $temp;
+			$elemento .= '<p class="texto-slider-herramientas-descripcion">';
+			$elemento .= $descripcion.'</p>'	;
+			$elemento .= '<br><br><br><a href="';
+			$elemento .= $enlaceWeb;
+			$elemento .= '" class="btn btn-default">Más información</a></div></div></div>';
+		}
+		
 		echo $elemento;
 
 	}
