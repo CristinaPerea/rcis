@@ -78,7 +78,8 @@ only screen and (max-width: 760px)  {
 <div class="">
 	<?php 
 		include_once("lectorCSV.php");
-		$miarray = loadDataFromCSVEncoding("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNWnhacXBrRjlIU0E&export?format=download");
+		$miarray = loadDataFromCSVEncoding("csvCache/tablaResumen.csv");
+		//$miarray = loadDataFromCSVEncoding("https://docs.google.com/uc?authuser=0&id=0B777mNcRbpXNWnhacXBrRjlIU0E&export?format=download");
 		$mensaje = '<table id="qs_table" border="1" class=""><thead><tr><th width="20%">Autor</th><th width="30%">Título</th><th width="5%">Año</th><th width="30%">Publicación/Procedencia</th><th width="5%">PDF</th></tr></thead><tbody>';
 		for($i=1; $i<sizeof($miarray); $i++){
 			$id = $miarray[$i][2];

@@ -2,7 +2,8 @@
 	include_once('lectorCSV.php');
 	$arrayGrupos = array();
 	// CSV de Grupos
-	$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
+	$arrayGrupos = loadDataFromCSV("csvCache/participantes.csv");
+	//$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
 	//print_r($arrayGrupos);
 
 	
