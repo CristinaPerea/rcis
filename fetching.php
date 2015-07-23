@@ -33,6 +33,7 @@
 		$mensaje .= '<a href="tablaTotal.csv">tablaTotal.csv</a> con '.$bytes_escritos_tablaTotal.' bytes escritos<br/>';
 		$mensaje .= '<a href="tools.csv">tools.csv</a> con '.$bytes_escritos_tools.' bytes escritos<br/>';
 		$mensaje .= '<a href="grupos.csv">grupos.csv</a> con '.$bytes_escritos_grupos.' bytes escritos<br/>';
+		$mensaje .= '<a href="index.php">Vuelta a la web</a><br/>';
 		if($miJson)
 			echo $mensaje;
 		else

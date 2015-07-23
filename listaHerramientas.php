@@ -1,12 +1,15 @@
 <?php
 	include_once('lectorCSV.php');
-
-	$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
+	$arrayHerramientas = loadDataFromCSV("csvCache/tools.csv");
+	$arrayGrupos = array();
+	$arrayGrupos = loadDataFromCSV("csvCache/grupos.csv");
+	
+	//$arrayHerramientas = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic/export?format=csv&id=1r_HzzjbG93PYkgZXTz7vwwxR7pCIilCSLb-m3t_rzic");
 	//print_r($arrayHerramientas);
 	//print_r($arrayGrupos);
-	$arrayGrupos = array();
+	
 	// CSV de Grupos
-	$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
+	//$arrayGrupos = loadDataFromCSV("https://docs.google.com/spreadsheets/d/1wpxEusyVf_MfIX595aI0BIKZnNiW269xii3bLAhNscY/export?format=csv");
 
 	$gruposAñadidos = array();
 	$nombreHerramienta;

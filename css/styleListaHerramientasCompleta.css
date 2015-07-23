@@ -73,9 +73,9 @@ div.cabecera-lista-herramientas {
     position: relative;
     padding-top: 0px;
     padding-left: 8px; } }
-@media (min-width: 651px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .texto-descripcion-herramienta {
-    padding-top: 0%; }
+    padding-top: 0px; }
 
   .nombre-de-herramienta {
     height: inherit;
